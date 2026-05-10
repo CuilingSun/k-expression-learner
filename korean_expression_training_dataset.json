@@ -1,0 +1,262 @@
+[
+  {
+    "expression": "-잖아",
+    "meaning": "你明明知道啊（带一点抱怨或强调）",
+    "tone": "抱怨 / 强调",
+    "usage_examples": [
+      "너 늦었잖아.",
+      "내가 어제 말했잖아.",
+      "비 오잖아, 우산 가져가."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "-거든",
+        "difference": "更偏解释原因，情绪感没那么强"
+      },
+      {
+        "expression": "-는데",
+        "difference": "语气更柔和，更像铺垫"
+      }
+    ],
+    "scenario": "朋友迟到后抱怨",
+    "simple_example": "너 피곤하잖아.",
+    "rewrite_task": {
+      "formal_sentence": "너는 왜 늦었습니까?",
+      "natural_answer": "너 왜 이렇게 늦었잖아."
+    }
+  },
+  {
+    "expression": "-거든",
+    "meaning": "因为是这样的（带解释语气）",
+    "tone": "解释 / 补充说明",
+    "usage_examples": [
+      "나 오늘 좀 바쁘거든.",
+      "그 사람 원래 좀 그래, 알거든.",
+      "나 내일 시험 있거든."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "-잖아",
+        "difference": "更像强调已知事实"
+      },
+      {
+        "expression": "-니까",
+        "difference": "更正式、更明确表示原因"
+      }
+    ],
+    "scenario": "解释自己为什么不能出去",
+    "simple_example": "나 피곤하거든.",
+    "rewrite_task": {
+      "formal_sentence": "저는 오늘 매우 바쁩니다.",
+      "natural_answer": "나 오늘 좀 바쁘거든."
+    }
+  },
+  {
+    "expression": "진짜",
+    "meaning": "真的 / 太…了",
+    "tone": "强调 / 情绪化",
+    "usage_examples": [
+      "진짜 웃기다.",
+      "진짜 너무하네.",
+      "진짜 맛있다."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "완전",
+        "difference": "更偏‘完全、超级’"
+      },
+      {
+        "expression": "대박",
+        "difference": "更偏惊叹"
+      }
+    ],
+    "scenario": "表达强烈情绪",
+    "simple_example": "진짜 피곤해.",
+    "rewrite_task": {
+      "formal_sentence": "정말 재미있습니다.",
+      "natural_answer": "진짜 웃기다."
+    }
+  },
+  {
+    "expression": "대박",
+    "meaning": "太厉害了 / 天啊",
+    "tone": "惊讶 / 兴奋",
+    "usage_examples": [
+      "대박이다.",
+      "와 대박 사건이네.",
+      "이거 진짜 대박 맛있다."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "헐",
+        "difference": "更偏震惊、无语"
+      },
+      {
+        "expression": "미쳤다",
+        "difference": "情绪更强、更夸张"
+      }
+    ],
+    "scenario": "看到惊人的事情",
+    "simple_example": "대박이네.",
+    "rewrite_task": {
+      "formal_sentence": "이것은 매우 놀랍습니다.",
+      "natural_answer": "와, 대박이다."
+    }
+  },
+  {
+    "expression": "헐",
+    "meaning": "天啊 / 不会吧",
+    "tone": "震惊 / 无语",
+    "usage_examples": [
+      "헐 진짜?",
+      "헐 대박.",
+      "헐 너 뭐야."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "대박",
+        "difference": "更偏正向惊叹"
+      },
+      {
+        "expression": "설마",
+        "difference": "更偏不敢相信"
+      }
+    ],
+    "scenario": "听到离谱消息",
+    "simple_example": "헐, 진짜야?",
+    "rewrite_task": {
+      "formal_sentence": "정말 믿기 어렵습니다.",
+      "natural_answer": "헐, 진짜?"
+    }
+  },
+  {
+    "expression": "완전",
+    "meaning": "超级 / 完全",
+    "tone": "强调",
+    "usage_examples": [
+      "완전 재밌어.",
+      "완전 피곤하다.",
+      "완전 내 스타일이야."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "진짜",
+        "difference": "更偏情绪化强调"
+      },
+      {
+        "expression": "엄청",
+        "difference": "更像‘非常’"
+      }
+    ],
+    "scenario": "加强表达程度",
+    "simple_example": "완전 좋아.",
+    "rewrite_task": {
+      "formal_sentence": "매우 재미있습니다.",
+      "natural_answer": "완전 재밌어."
+    }
+  },
+  {
+    "expression": "미치겠다",
+    "meaning": "我要疯了",
+    "tone": "崩溃 / 无语",
+    "usage_examples": [
+      "아 진짜 미치겠다.",
+      "너 때문에 미치겠어.",
+      "시험 때문에 미치겠다."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "답답하다",
+        "difference": "更偏郁闷"
+      },
+      {
+        "expression": "어이없다",
+        "difference": "更偏无语"
+      }
+    ],
+    "scenario": "压力太大时吐槽",
+    "simple_example": "아 미치겠다.",
+    "rewrite_task": {
+      "formal_sentence": "저는 매우 스트레스를 받고 있습니다.",
+      "natural_answer": "아 진짜 미치겠다."
+    }
+  },
+  {
+    "expression": "장난 아니야",
+    "meaning": "不是开玩笑的 / 太厉害了",
+    "tone": "强调 / 感叹",
+    "usage_examples": [
+      "오늘 날씨 장난 아니야.",
+      "걔 인기 장난 아니더라.",
+      "이거 진짜 장난 아니다."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "대박",
+        "difference": "更偏惊叹"
+      },
+      {
+        "expression": "완전",
+        "difference": "更偏程度加强"
+      }
+    ],
+    "scenario": "强调程度很夸张",
+    "simple_example": "요즘 더위 장난 아니야.",
+    "rewrite_task": {
+      "formal_sentence": "오늘 날씨가 매우 덥습니다.",
+      "natural_answer": "오늘 날씨 장난 아니야."
+    }
+  },
+  {
+    "expression": "너무하다",
+    "meaning": "太过分了",
+    "tone": "不满 / 抱怨",
+    "usage_examples": [
+      "너 진짜 너무한다.",
+      "이건 좀 너무한 거 아니야?",
+      "가격이 너무하네."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "어이없다",
+        "difference": "更偏无语"
+      },
+      {
+        "expression": "서운하다",
+        "difference": "更偏受伤"
+      }
+    ],
+    "scenario": "觉得别人行为过分",
+    "simple_example": "진짜 너무하네.",
+    "rewrite_task": {
+      "formal_sentence": "당신의 행동은 적절하지 않습니다.",
+      "natural_answer": "너 진짜 너무한다."
+    }
+  },
+  {
+    "expression": "그니까",
+    "meaning": "就是说啊 / 所以嘛",
+    "tone": "附和 / 强调",
+    "usage_examples": [
+      "그니까 내 말이.",
+      "그니까 왜 그랬냐고.",
+      "그니까 좀 일찍 나오지."
+    ],
+    "similar_expressions": [
+      {
+        "expression": "맞아",
+        "difference": "更直接表示认同"
+      },
+      {
+        "expression": "그러니까",
+        "difference": "更完整正式"
+      }
+    ],
+    "scenario": "朋友聊天时附和",
+    "simple_example": "그니까 말이야.",
+    "rewrite_task": {
+      "formal_sentence": "그러므로 그렇게 된 것입니다.",
+      "natural_answer": "그니까 그렇게 된 거지."
+    }
+  }
+]
