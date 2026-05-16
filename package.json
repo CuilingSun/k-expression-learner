@@ -1,0 +1,27 @@
+{
+  "name": "k-expression-learner",
+  "version": "0.1.0",
+  "description": "K-drama expression learning tool",
+  "main": "src/backend/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:start\"",
+    "predev": "lsof -ti:3300 | xargs kill -9 2>/dev/null; lsof -ti:3301 | xargs kill -9 2>/dev/null; true",
+    "backend:dev": "NODE_ENV=development node src/backend/index.js",
+    "start": "NODE_ENV=production node src/backend/index.js",
+    "prestart": "lsof -ti:3300 | xargs kill -9 2>/dev/null; true",
+    "frontend:start": "npm --prefix src/frontend start",
+    "frontend:build": "npm --prefix src/frontend run build",
+    "build": "npm run frontend:build",
+    "build:v5": "node scripts/build-v5-dataset.js",
+    "validate:v5": "node scripts/validate-v5-dataset.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

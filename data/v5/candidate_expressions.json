@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "expr_0001",
+    "expression": "-잖아",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "janha",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0002",
+    "expression": "-거든",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "geodeun",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0003",
+    "expression": "-는데",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neunde",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0004",
+    "expression": "진짜",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "jinjja",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0005",
+    "expression": "완전",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "wanjeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0006",
+    "expression": "대박",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "daebak",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0007",
+    "expression": "헐",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "heol",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0008",
+    "expression": "미치겠다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "michigetda",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0009",
+    "expression": "장난 아니야",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "jangnan aniya",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0010",
+    "expression": "너무하다",
+    "grammar_type": "descriptive_verb",
+    "category": "everyday_phrase",
+    "romanization": "neomuhada",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0011",
+    "expression": "그니까",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geunikka",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0012",
+    "expression": "맞아",
+    "grammar_type": "response",
+    "category": "discourse_connector",
+    "romanization": "mata",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0013",
+    "expression": "아니 근데",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "ani geunde",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0014",
+    "expression": "설마",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "seolma",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0015",
+    "expression": "그럴 리가",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geureol riga",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0016",
+    "expression": "어쩌라고",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "eojjeorago",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0017",
+    "expression": "귀찮아",
+    "grammar_type": "descriptive_verb",
+    "category": "everyday_phrase",
+    "romanization": "gwichanha",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0018",
+    "expression": "별로야",
+    "grammar_type": "descriptive_verb",
+    "category": "everyday_phrase",
+    "romanization": "byeolroya",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0019",
+    "expression": "괜찮네",
+    "grammar_type": "descriptive_verb",
+    "category": "everyday_phrase",
+    "romanization": "gwaenchanhne",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0020",
+    "expression": "대충",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "daechung",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0021",
+    "expression": "눈치 없다",
+    "grammar_type": "descriptive_expression",
+    "category": "everyday_phrase",
+    "romanization": "nunchi eopsda",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0022",
+    "expression": "답답하다",
+    "grammar_type": "descriptive_verb",
+    "category": "everyday_phrase",
+    "romanization": "dapdaphada",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0023",
+    "expression": "서운하다",
+    "grammar_type": "descriptive_verb",
+    "category": "everyday_phrase",
+    "romanization": "seounhada",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0024",
+    "expression": "어이없다",
+    "grammar_type": "descriptive_verb",
+    "category": "everyday_phrase",
+    "romanization": "eoieopsda",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0025",
+    "expression": "황당하다",
+    "grammar_type": "descriptive_verb",
+    "category": "everyday_phrase",
+    "romanization": "hwangdanghada",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0026",
+    "expression": "말이야",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "maliya",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0027",
+    "expression": "그러니까",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureonikka",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0028",
+    "expression": "그냥",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "geunyang",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0029",
+    "expression": "진심",
+    "grammar_type": "slang_adverb",
+    "category": "adverb_attitude",
+    "romanization": "jinsim",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0030",
+    "expression": "미쳤다",
+    "grammar_type": "slang_expression",
+    "category": "emotional_reaction",
+    "romanization": "michyeotda",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0031",
+    "expression": "실화야?",
+    "grammar_type": "slang_question",
+    "category": "emotional_reaction",
+    "romanization": "silhwaya",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0032",
+    "expression": "에이",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "ei",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0033",
+    "expression": "됐다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "dwaetda",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0034",
+    "expression": "왜 굳이",
+    "grammar_type": "question_phrase",
+    "category": "everyday_phrase",
+    "romanization": "wae guti",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0035",
+    "expression": "어쩌면",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "eojjeomyeon",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0036",
+    "expression": "그러게",
+    "grammar_type": "response_expression",
+    "category": "discourse_connector",
+    "romanization": "geureoge",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0037",
+    "expression": "아무튼",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "amuteun",
+    "formality": "polite",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0038",
+    "expression": "이렇게까지",
+    "grammar_type": "degree_expression",
+    "category": "adverb_attitude",
+    "romanization": "ireohgekkaji",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0039",
+    "expression": "그게 뭔데",
+    "grammar_type": "question_phrase",
+    "category": "everyday_phrase",
+    "romanization": "geuge mwonde",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0040",
+    "expression": "뭔데",
+    "grammar_type": "question_ending",
+    "category": "grammar_ending",
+    "romanization": "mwonde",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0041",
+    "expression": "내가 알게 뭐야",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "naega alge mwoya",
+    "formality": "casual",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0042",
+    "expression": "몰라",
+    "grammar_type": "verb_expression",
+    "category": "everyday_phrase",
+    "romanization": "molra",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0043",
+    "expression": "좀",
+    "grammar_type": "adverb_particle",
+    "category": "adverb_attitude",
+    "romanization": "jom",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0044",
+    "expression": "제발",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "jebal",
+    "formality": "polite",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0045",
+    "expression": "괜히",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "gwaenhi",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0046",
+    "expression": "어차피",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "eochapi",
+    "formality": "polite",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0047",
+    "expression": "그래도",
+    "grammar_type": "conjunction_adverb",
+    "category": "discourse_connector",
+    "romanization": "geuraedo",
+    "formality": "polite",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0048",
+    "expression": "막",
+    "grammar_type": "spoken_adverb",
+    "category": "adverb_attitude",
+    "romanization": "mak",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0049",
+    "expression": "더더욱",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "deodeouk",
+    "formality": "polite",
+    "level": 2,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0050",
+    "expression": "어떡해",
+    "grammar_type": "reaction_expression",
+    "category": "emotional_reaction",
+    "romanization": "eotteokhae",
+    "formality": "casual",
+    "level": 1,
+    "status": "verified_v4"
+  },
+  {
+    "id": "expr_0051",
+    "expression": "-네",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "ne",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0052",
+    "expression": "-지",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "ji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0053",
+    "expression": "-지 뭐",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "ji mwo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0054",
+    "expression": "-다니까",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "danikka",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0055",
+    "expression": "-라니까",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "ranikka",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0056",
+    "expression": "-(으)ㄹ까",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "eukka",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0057",
+    "expression": "-(으)ㄹ래",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "eurae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0058",
+    "expression": "-(으)ㄹ게",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "euge",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0059",
+    "expression": "-아/어야지",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeoyaji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0060",
+    "expression": "-고 싶다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "go sipda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0061",
+    "expression": "-기 싫다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "gi silhda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0062",
+    "expression": "-겠네",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "getne",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0063",
+    "expression": "-겠지",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "getji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0064",
+    "expression": "-(으)ㄴ가/나 보다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "eugana boda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0065",
+    "expression": "-(으)ㄹ 것 같다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "eu geot gatda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0066",
+    "expression": "-(으)ㄹ걸",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "eugeol",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0067",
+    "expression": "-아/어 보다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo boda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0068",
+    "expression": "-고 있다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "go itda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0069",
+    "expression": "-게 되다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "ge doeda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0070",
+    "expression": "-자고",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "jago",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0071",
+    "expression": "-대",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "dae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0072",
+    "expression": "-래",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "rae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0073",
+    "expression": "-다니",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "dani",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0074",
+    "expression": "-냐고",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "nyago",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0075",
+    "expression": "-아/어도 되다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeodo doeda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0076",
+    "expression": "-지 말다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "ji malda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0077",
+    "expression": "-아/어 주다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo juda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0078",
+    "expression": "-아/어 놓다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo nohda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0079",
+    "expression": "-아/어 두다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo duda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0080",
+    "expression": "-기만 하다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "giman hada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0081",
+    "expression": "-다 말다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "da malda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0082",
+    "expression": "-아/어 죽겠다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo jukgetda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0083",
+    "expression": "-아/어 내다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo naeda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0084",
+    "expression": "-아/어 치우다",
+    "grammar_type": "sentence_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo chiuda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0085",
+    "expression": "-더라",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "deora",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0086",
+    "expression": "-더라고",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "deorago",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0087",
+    "expression": "-겠는데",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "getneunde",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0088",
+    "expression": "-길래",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "gilrae",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0089",
+    "expression": "-더니",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "deoni",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0090",
+    "expression": "-다 보니",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "da boni",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0091",
+    "expression": "-다 보면",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "da bomyeon",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0092",
+    "expression": "-는 척하다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun cheokhada",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0093",
+    "expression": "-는 편이다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun pyeonida",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0094",
+    "expression": "-(으)ㄹ 뻔하다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "eu ppeonhada",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0095",
+    "expression": "-고 싶어 하다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "go sipeo hada",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0096",
+    "expression": "-수도 있다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "sudo itda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0097",
+    "expression": "-수밖에 없다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "subakke eopsda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0098",
+    "expression": "-는 김에",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun gime",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0099",
+    "expression": "-는 바람에",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun barame",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0100",
+    "expression": "-는 대신",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun daesin",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0101",
+    "expression": "-는 순간",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun sungan",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0102",
+    "expression": "-고도 남다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "godo namda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0103",
+    "expression": "-기는 하다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "gineun hada",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0104",
+    "expression": "-는 거 아니야?",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun geo aniya",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0105",
+    "expression": "-을 리가 없다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "eul riga eopsda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0106",
+    "expression": "-기에는",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "gieneun",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0107",
+    "expression": "-는 셈이다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun semida",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0108",
+    "expression": "-아/어 버리다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo beorida",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0109",
+    "expression": "-고 말다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "go malda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0110",
+    "expression": "-려다가",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "ryeodaga",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0111",
+    "expression": "-려면",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "ryeomyeon",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0112",
+    "expression": "-자마자",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "jamaja",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0113",
+    "expression": "-는 줄 알다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun jul alda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0114",
+    "expression": "-는 줄 모르다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neun jul moreuda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0115",
+    "expression": "-는데도",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "neundedo",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0116",
+    "expression": "-고 보니",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "go boni",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0117",
+    "expression": "-더니만",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "deoniman",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0118",
+    "expression": "-았/었다가",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "ateotdaga",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0119",
+    "expression": "-았/었다니",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "ateotdani",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0120",
+    "expression": "-기 마련이다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "gi maryeonida",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0121",
+    "expression": "-기 나름이다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "gi nareumida",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0122",
+    "expression": "-기 딱 좋다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "gi ttak johda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0123",
+    "expression": "-기는요",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "gineunyo",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0124",
+    "expression": "-기는커녕",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "gineunkeonyeong",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0125",
+    "expression": "-나 싶다",
+    "grammar_type": "connective_ending",
+    "category": "grammar_ending",
+    "romanization": "na sipda",
+    "formality": "casual",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0126",
+    "expression": "-아/어 주세요",
+    "grammar_type": "polite_ending",
+    "category": "grammar_ending",
+    "romanization": "aeo juseyo",
+    "formality": "polite",
+    "level": 2,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0127",
+    "expression": "그럼",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureom",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0128",
+    "expression": "그러면",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureomyeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0129",
+    "expression": "근데",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geunde",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0130",
+    "expression": "그래서",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geuraeseo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0131",
+    "expression": "사실",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "sasil",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0132",
+    "expression": "솔직히",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "soljikhi",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0133",
+    "expression": "아니면",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "animyeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0134",
+    "expression": "왜냐하면",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "waenyahamyeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0135",
+    "expression": "그게 아니라",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geuge anira",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0136",
+    "expression": "그건 그렇고",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geugeon geureohgo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0137",
+    "expression": "그러면 말이야",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureomyeon maliya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0138",
+    "expression": "아니 그러니까",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "ani geureonikka",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0139",
+    "expression": "내 말은",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "nae maleun",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0140",
+    "expression": "무슨 말이냐면",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "museun malinyamyeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0141",
+    "expression": "하긴",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "hagin",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0142",
+    "expression": "그런데",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureonde",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0143",
+    "expression": "보니까",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "bonikka",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0144",
+    "expression": "아무래도",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "amuraedo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0145",
+    "expression": "어쨌든",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "eojjaetdeun",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0146",
+    "expression": "게다가",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "gedaga",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0147",
+    "expression": "차라리",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "charari",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0148",
+    "expression": "오히려",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "ohiryeo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0149",
+    "expression": "반대로",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "bandaero",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0150",
+    "expression": "그러고 보니",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureogo boni",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0151",
+    "expression": "그러다 보니",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureoda boni",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0152",
+    "expression": "그러다 보니까",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureoda bonikka",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0153",
+    "expression": "듣고 보니",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "deutgo boni",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0154",
+    "expression": "생각해 보니",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "saenggakhae boni",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0155",
+    "expression": "결론적으로",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "gyeolronjeokeuro",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0156",
+    "expression": "한마디로",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "hanmadiro",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0157",
+    "expression": "말하자면",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "malhajamyeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0158",
+    "expression": "대신",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "daesin",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0159",
+    "expression": "아무리 그래도",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "amuri geuraedo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0160",
+    "expression": "듣자 하니",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "deutja hani",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0161",
+    "expression": "보아하니",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "boahani",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0162",
+    "expression": "그러면서",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "geureomyeonseo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0163",
+    "expression": "어쩌다 보니",
+    "grammar_type": "discourse_marker",
+    "category": "discourse_connector",
+    "romanization": "eojjeoda boni",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0164",
+    "expression": "어머",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "eomeo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0165",
+    "expression": "세상에",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "sesange",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0166",
+    "expression": "말도 안 돼",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "maldo an dwae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0167",
+    "expression": "아이고",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "aigo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0168",
+    "expression": "어이구",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "eoigu",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0169",
+    "expression": "맙소사",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "mapsosa",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0170",
+    "expression": "아이참",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "aicham",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0171",
+    "expression": "부럽다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "bureopda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0172",
+    "expression": "좋겠다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "johgetda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0173",
+    "expression": "다행이다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "dahaengida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0174",
+    "expression": "아쉽다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "aswipda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0175",
+    "expression": "안타깝다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "antakkapda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0176",
+    "expression": "민망하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "minmanghada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0177",
+    "expression": "부담스럽다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "budamseureopda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0178",
+    "expression": "난감하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "nangamhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0179",
+    "expression": "속상하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "soksanghada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0180",
+    "expression": "억울하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "eokulhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0181",
+    "expression": "불안하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "bulanhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0182",
+    "expression": "무섭다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "museopda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0183",
+    "expression": "짜증 나다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "jjajeung nada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0184",
+    "expression": "열받다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "yeolbatda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0185",
+    "expression": "환장하겠다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "hwanjanghagetda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0186",
+    "expression": "돌겠다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "dolgetda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0187",
+    "expression": "웃기다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "utgida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0188",
+    "expression": "재밌다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "jaemitda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0189",
+    "expression": "귀엽다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "gwiyeopda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0190",
+    "expression": "멋있다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "meotitda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0191",
+    "expression": "예쁘다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "yeppeuda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0192",
+    "expression": "맛있겠다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "matitgetda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0193",
+    "expression": "최고다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "choegoda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0194",
+    "expression": "최악이다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "choeakida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0195",
+    "expression": "신기하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "singihada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0196",
+    "expression": "감동이다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "gamdongida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0197",
+    "expression": "별로다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "byeolroda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0198",
+    "expression": "애매하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "aemaehada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0199",
+    "expression": "이상하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "isanghada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0200",
+    "expression": "심하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "simhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0201",
+    "expression": "기막히다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "gimakhida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0202",
+    "expression": "허무하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "heomuhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0203",
+    "expression": "당황스럽다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "danghwangseureopda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0204",
+    "expression": "섭섭하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "seopseophada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0205",
+    "expression": "서럽다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "seoreopda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0206",
+    "expression": "속 터지다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "sok teojida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0207",
+    "expression": "빡치다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "ppakchida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0208",
+    "expression": "놀랍다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "nolrapda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0209",
+    "expression": "대단하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "daedanhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0210",
+    "expression": "황홀하다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "hwangholhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0211",
+    "expression": "반갑다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "bangapda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0212",
+    "expression": "억지스럽다",
+    "grammar_type": "interjection",
+    "category": "emotional_reaction",
+    "romanization": "eokjiseureopda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0213",
+    "expression": "정말",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "jeongmal",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0214",
+    "expression": "엄청",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "eomcheong",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0215",
+    "expression": "되게",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "doege",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0216",
+    "expression": "너무",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "neomu",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0217",
+    "expression": "꽤",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "kkwae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0218",
+    "expression": "제법",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "jebeop",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0219",
+    "expression": "별로",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "byeolro",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0220",
+    "expression": "그다지",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "geudaji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0221",
+    "expression": "전혀",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "jeonhyeo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0222",
+    "expression": "절대",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "jeoldae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0223",
+    "expression": "도저히",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "dojeohi",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0224",
+    "expression": "차마",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "chama",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0225",
+    "expression": "아예",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "aye",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0226",
+    "expression": "웬만하면",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "wenmanhamyeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0227",
+    "expression": "자꾸",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "jakku",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0228",
+    "expression": "계속",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "gyesok",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0229",
+    "expression": "맨날",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "maennal",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0230",
+    "expression": "매번",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "maebeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0231",
+    "expression": "살짝",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "saljjak",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0232",
+    "expression": "약간",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "yakgan",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0233",
+    "expression": "은근",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "eungeun",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0234",
+    "expression": "의외로",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "uioero",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0235",
+    "expression": "유난히",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "yunanhi",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0236",
+    "expression": "딱",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "ttak",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0237",
+    "expression": "굳이",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "guti",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0238",
+    "expression": "훨씬",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "hwolssin",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0239",
+    "expression": "도통",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "dotong",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0240",
+    "expression": "도무지",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "domuji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0241",
+    "expression": "영",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "yeong",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0242",
+    "expression": "더욱",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "deouk",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0243",
+    "expression": "슬슬",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "seulseul",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0244",
+    "expression": "잔뜩",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "jantteuk",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0245",
+    "expression": "툭하면",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "tukhamyeon",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0246",
+    "expression": "애초에",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "aechoe",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0247",
+    "expression": "혹시",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "hoksi",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0248",
+    "expression": "아마",
+    "grammar_type": "adverb",
+    "category": "adverb_attitude",
+    "romanization": "ama",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0249",
+    "expression": "어쩔 수 없다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "eojjeol su eopsda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0250",
+    "expression": "그럴 수 있다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geureol su itda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0251",
+    "expression": "그럴지도 모르다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geureoljido moreuda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0252",
+    "expression": "그렇구나",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geureohguna",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0253",
+    "expression": "그렇네",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geureohne",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0254",
+    "expression": "그렇지",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geureohji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0255",
+    "expression": "알겠어",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "algeteo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0256",
+    "expression": "알지",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "alji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0257",
+    "expression": "알잖아",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "aljanha",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0258",
+    "expression": "모르겠어",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "moreugeteo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0259",
+    "expression": "무슨 소리야",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "museun soriya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0260",
+    "expression": "무슨 말이야",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "museun maliya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0261",
+    "expression": "무슨 일이야",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "museun iliya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0262",
+    "expression": "웬일이야",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "weniliya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0263",
+    "expression": "왜 이래",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "wae irae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0264",
+    "expression": "왜 그래",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "wae geurae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0265",
+    "expression": "왜 그러는데",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "wae geureoneunde",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0266",
+    "expression": "어쩌지",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "eojjeoji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0267",
+    "expression": "큰일 났다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "keunil natda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0268",
+    "expression": "그만해",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geumanhae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0269",
+    "expression": "하지 마",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "haji ma",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0270",
+    "expression": "그럴 필요 없다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geureol pilyo eopsda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0271",
+    "expression": "상관없다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "sanggwaneopsda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0272",
+    "expression": "신경 쓰지 마",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "singyeong sseuji ma",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0273",
+    "expression": "걱정하지 마",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geokjeonghaji ma",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0274",
+    "expression": "나도 몰라",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "nado molra",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0275",
+    "expression": "그건 아니지",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geugeon aniji",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0276",
+    "expression": "그건 좀",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geugeon jom",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0277",
+    "expression": "좀 그렇다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "jom geureohda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0278",
+    "expression": "그게 문제다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "geuge munjeda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0279",
+    "expression": "정신없다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "jeongsineopsda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0280",
+    "expression": "시간 없다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "sigan eopsda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0281",
+    "expression": "돈 없다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "don eopsda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0282",
+    "expression": "감이 오다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "gami oda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0283",
+    "expression": "감이 안 오다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "gami an oda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0284",
+    "expression": "힘이 들다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "himi deulda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0285",
+    "expression": "마음에 들다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "maeume deulda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0286",
+    "expression": "마음에 안 들다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "maeume an deulda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0287",
+    "expression": "생각보다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "saenggakboda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0288",
+    "expression": "알고 보니",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "algo boni",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0289",
+    "expression": "막상",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "maksang",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0290",
+    "expression": "쓸데없다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "sseuldeeopsda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0291",
+    "expression": "별일 아니다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "byeolil anida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0292",
+    "expression": "보기보다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "bogiboda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0293",
+    "expression": "듣기보다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "deutgiboda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0294",
+    "expression": "말이 안 되다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "mali an doeda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0295",
+    "expression": "말이 안 나오다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "mali an naoda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0296",
+    "expression": "티 나다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "ti nada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0297",
+    "expression": "티 안 나다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "ti an nada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0298",
+    "expression": "마음이 놓이다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "maeumi nohida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0299",
+    "expression": "말도 못 하다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "maldo mot hada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0300",
+    "expression": "죽겠다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "jukgetda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0301",
+    "expression": "정신 차리다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "jeongsin charida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0302",
+    "expression": "눈치 보이다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "nunchi boida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0303",
+    "expression": "손이 많이 가다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "soni manhi gada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0304",
+    "expression": "손이 크다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "soni keuda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0305",
+    "expression": "귀에 안 들어오다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "gwie an deuleooda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0306",
+    "expression": "맘에 걸리다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "mame geolrida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0307",
+    "expression": "발 벗고 나서다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "bal beotgo naseoda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0308",
+    "expression": "선 넘다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "seon neomda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0309",
+    "expression": "말해 뭐해",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "malhae mwohae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0310",
+    "expression": "감당 안 되다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "gamdang an doeda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0311",
+    "expression": "답이 없다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "dapi eopsda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0312",
+    "expression": "티격태격하다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "tigyeoktaegyeokhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0313",
+    "expression": "간보다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "ganboda",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0314",
+    "expression": "헷갈리다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "hetgalrida",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0315",
+    "expression": "속이 시원하다",
+    "grammar_type": "fixed_expression",
+    "category": "everyday_phrase",
+    "romanization": "soki siwonhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0316",
+    "expression": "오랜만이야",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "oraenmaniya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0317",
+    "expression": "잘 지냈어?",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "jal jinaeteo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0318",
+    "expression": "밥 먹었어?",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "bap meokeoteo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0319",
+    "expression": "어디야?",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "eodiya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0320",
+    "expression": "지금 가는 중이야",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "jigeum ganeun jungiya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0321",
+    "expression": "조심히 가",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "josimhi ga",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0322",
+    "expression": "먼저 들어가",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "meonjeo deuleoga",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0323",
+    "expression": "연락할게",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "yeonrakhalge",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0324",
+    "expression": "이따 봐",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "itta bwa",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0325",
+    "expression": "나중에 보자",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "najunge boja",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0326",
+    "expression": "시간 되면 보자",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "sigan doemyeon boja",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0327",
+    "expression": "천천히 해",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "cheoncheonhi hae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0328",
+    "expression": "급하지 않아",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "geuphaji anha",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0329",
+    "expression": "편하게 말해",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "pyeonhage malhae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0330",
+    "expression": "그냥 넘어가자",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "geunyang neomeogaja",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0331",
+    "expression": "좋게 좋게 가자",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "johge johge gaja",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0332",
+    "expression": "한번 해 보자",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "hanbeon hae boja",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0333",
+    "expression": "두고 보자",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "dugo boja",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0334",
+    "expression": "신경 안 써도 돼",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "singyeong an sseodo dwae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0335",
+    "expression": "그 정도는 아니야",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "geu jeongdoneun aniya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0336",
+    "expression": "그건 좀 오바야",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "geugeon jom obaya",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0337",
+    "expression": "너무 부담 갖지 마",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "neomu budam gatji ma",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0338",
+    "expression": "내가 알아서 할게",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "naega alaseo halge",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0339",
+    "expression": "이번만 봐줘",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "ibeonman bwajwo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0340",
+    "expression": "장난치지 마",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "jangnanchiji ma",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0341",
+    "expression": "그럴 줄 알았어",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "geureol jul alateo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0342",
+    "expression": "이럴 줄 알았어",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "ireol jul alateo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0343",
+    "expression": "설마 했는데",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "seolma haetneunde",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0344",
+    "expression": "안 봐도 뻔하다",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "an bwado ppeonhada",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0345",
+    "expression": "잠깐만",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "jamkkanman",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0346",
+    "expression": "금방 갈게",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "geumbang galge",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0347",
+    "expression": "먼저 갈게",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "meonjeo galge",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0348",
+    "expression": "무리하지 마",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "murihaji ma",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0349",
+    "expression": "잘 들어갔어?",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "jal deuleogateo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0350",
+    "expression": "조심해서 와",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "josimhaeseo wa",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0351",
+    "expression": "천천히 와",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "cheoncheonhi wa",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0352",
+    "expression": "나중에 연락해",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "najunge yeonrakhae",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0353",
+    "expression": "내가 다시 말해 줄게",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "naega dasi malhae julge",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0354",
+    "expression": "여기 앉아",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "yeogi anja",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0355",
+    "expression": "편하게 있어",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "pyeonhage iteo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0356",
+    "expression": "내가 살게",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "naega salge",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0357",
+    "expression": "내가 쏠게",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "naega ssolge",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0358",
+    "expression": "너무 늦었어",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "neomu neuteoteo",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0359",
+    "expression": "그만하자",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "geumanhaja",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  },
+  {
+    "id": "expr_0360",
+    "expression": "괜히 걱정했네",
+    "grammar_type": "situational_sentence",
+    "category": "situational_sentence",
+    "romanization": "gwaenhi geokjeonghaetne",
+    "formality": "casual",
+    "level": 1,
+    "status": "seeded"
+  }
+]

@@ -1,0 +1,4074 @@
+[
+  {
+    "id": "expr_0001",
+    "expression": "-잖아",
+    "display_expression": "-잖아",
+    "meaning": "你明明知道啊；不是……吗（带提醒、抱怨或强调）",
+    "meaning_cluster": "强调已知事实 / 抱怨 / 提醒",
+    "tone_tags": [
+      "complaint",
+      "emphasis",
+      "shared_knowledge"
+    ],
+    "scenario_tags": [
+      "friend_late",
+      "reminder",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "sentence_ending",
+    "usage_examples": [
+      {
+        "korean": "너 늦었잖아.",
+        "translation": "你迟到了啊。",
+        "tone_note": "强调对方应该知道自己迟到了，带一点抱怨。",
+        "id": "ex_0001",
+        "expression_id": "expr_0001"
+      },
+      {
+        "korean": "내가 어제 말했잖아.",
+        "translation": "我昨天不是说过了吗。",
+        "tone_note": "强调自己已经说过，有轻微不耐烦。",
+        "id": "ex_0002",
+        "expression_id": "expr_0001"
+      },
+      {
+        "korean": "비 오잖아, 우산 가져가.",
+        "translation": "下雨了啊，带伞吧。",
+        "tone_note": "提醒对方一个明显事实。",
+        "id": "ex_0003",
+        "expression_id": "expr_0001"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "-거든",
+        "relation_type": "contrast",
+        "difference": "-잖아强调对方也知道的事实，-거든更像解释原因。",
+        "target_expression_id": "expr_0002"
+      },
+      {
+        "target_expression": "-는데",
+        "relation_type": "softer_than",
+        "difference": "-는데更委婉，常用于铺垫或转折，情绪压力更小。",
+        "target_expression_id": "expr_0003"
+      }
+    ],
+    "scenario": {
+      "title": "朋友迟到后抱怨",
+      "context": "朋友比约定时间晚到，你有点不满，但关系比较亲近。"
+    },
+    "simple_example": {
+      "korean": "너 피곤하잖아.",
+      "translation": "你不是累了吗。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0001",
+        "prompt": "朋友又迟到了，把这句话改成带一点抱怨的自然口语。",
+        "formal_sentence": "너는 또 늦었습니다.",
+        "natural_answer": "너 또 늦었잖아.",
+        "target_expression": "-잖아",
+        "scenario_tag": "friend_late",
+        "expression_id": "expr_0001"
+      },
+      {
+        "task_id": "task_0002",
+        "prompt": "用带一点提醒语气的方式表达。",
+        "formal_sentence": "비가 오고 있으니 우산을 가져가십시오.",
+        "natural_answer": "비 오잖아, 우산 가져가.",
+        "target_expression": "-잖아",
+        "scenario_tag": "reminder",
+        "expression_id": "expr_0001"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0002",
+    "expression": "-거든",
+    "display_expression": "-거든",
+    "meaning": "因为是这样的；我跟你说（用于解释原因或补充背景）",
+    "meaning_cluster": "解释原因 / 补充背景",
+    "tone_tags": [
+      "explanation",
+      "soft_emphasis",
+      "background"
+    ],
+    "scenario_tags": [
+      "declining_invitation",
+      "explaining_reason",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "sentence_ending",
+    "usage_examples": [
+      {
+        "korean": "나 오늘 좀 바쁘거든.",
+        "translation": "我今天有点忙嘛。",
+        "tone_note": "解释自己不能做某事的原因。",
+        "id": "ex_0004",
+        "expression_id": "expr_0002"
+      },
+      {
+        "korean": "내일 시험 있거든.",
+        "translation": "我明天有考试嘛。",
+        "tone_note": "补充背景，让对方理解自己的处境。",
+        "id": "ex_0005",
+        "expression_id": "expr_0002"
+      },
+      {
+        "korean": "걔 원래 좀 조용하거든.",
+        "translation": "他本来就有点安静。",
+        "tone_note": "解释某人的特点。",
+        "id": "ex_0006",
+        "expression_id": "expr_0002"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "-잖아",
+        "relation_type": "contrast",
+        "difference": "-거든说明原因，-잖아强调对方也知道的事实。",
+        "target_expression_id": "expr_0001"
+      },
+      {
+        "target_expression": "-니까",
+        "relation_type": "softer_than",
+        "difference": "-니까因果更直接，-거든更口语、更像补充说明。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "解释自己不能赴约",
+      "context": "朋友约你出去，但你需要解释为什么不能去。"
+    },
+    "simple_example": {
+      "korean": "나 지금 밖이거든.",
+      "translation": "我现在在外面呢。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0003",
+        "prompt": "把这句话改成自然解释原因的口语。",
+        "formal_sentence": "저는 오늘 바쁘기 때문에 갈 수 없습니다.",
+        "natural_answer": "나 오늘 좀 바쁘거든.",
+        "target_expression": "-거든",
+        "scenario_tag": "declining_invitation",
+        "expression_id": "expr_0002"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0003",
+    "expression": "-는데",
+    "display_expression": "-는데",
+    "meaning": "……但是 / ……呢（用于铺垫、转折或委婉表达）",
+    "meaning_cluster": "铺垫 / 委婉转折 / 提出背景",
+    "tone_tags": [
+      "softening",
+      "hesitation",
+      "background"
+    ],
+    "scenario_tags": [
+      "soft_request",
+      "awkward_response",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "peers",
+      "acquaintances"
+    ],
+    "grammar_type": "connective_ending",
+    "usage_examples": [
+      {
+        "korean": "나 지금 좀 바쁜데.",
+        "translation": "我现在有点忙呢。",
+        "tone_note": "委婉地暗示不方便。",
+        "id": "ex_0007",
+        "expression_id": "expr_0003"
+      },
+      {
+        "korean": "이거 괜찮은데?",
+        "translation": "这个还不错诶？",
+        "tone_note": "带一点发现感或轻微惊喜。",
+        "id": "ex_0008",
+        "expression_id": "expr_0003"
+      },
+      {
+        "korean": "나도 가고 싶은데 시간이 없어.",
+        "translation": "我也想去，但是没时间。",
+        "tone_note": "先表达意愿，再说明限制。",
+        "id": "ex_0009",
+        "expression_id": "expr_0003"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "-잖아",
+        "relation_type": "softer_than",
+        "difference": "-는데更委婉、开放，-잖아更强调事实或带情绪。",
+        "target_expression_id": "expr_0001"
+      },
+      {
+        "target_expression": "근데",
+        "relation_type": "similar_function",
+        "difference": "근데常放句首，-는데接在谓词后。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "委婉表达不方便",
+      "context": "别人邀请你，但你不想直接拒绝。"
+    },
+    "simple_example": {
+      "korean": "나 지금 바쁜데.",
+      "translation": "我现在有点忙呢。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0004",
+        "prompt": "把这句话改得更委婉自然。",
+        "formal_sentence": "저는 지금 바빠서 어렵습니다.",
+        "natural_answer": "나 지금 좀 바쁜데.",
+        "target_expression": "-는데",
+        "scenario_tag": "soft_request",
+        "expression_id": "expr_0003"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0004",
+    "expression": "진짜",
+    "display_expression": "진짜",
+    "meaning": "真的；太……了（口语强调）",
+    "meaning_cluster": "强调 / 情绪加强",
+    "tone_tags": [
+      "emphasis",
+      "emotion_booster"
+    ],
+    "scenario_tags": [
+      "surprise",
+      "complaint",
+      "praise",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "진짜 웃기다.",
+        "translation": "真的很好笑。",
+        "tone_note": "自然口语中加强感受。",
+        "id": "ex_0010",
+        "expression_id": "expr_0004"
+      },
+      {
+        "korean": "진짜 너무하네.",
+        "translation": "真的太过分了。",
+        "tone_note": "加强不满情绪。",
+        "id": "ex_0011",
+        "expression_id": "expr_0004"
+      },
+      {
+        "korean": "이거 진짜 맛있다.",
+        "translation": "这个真的好吃。",
+        "tone_note": "表达强烈正向感受。",
+        "id": "ex_0012",
+        "expression_id": "expr_0004"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "완전",
+        "relation_type": "similar_meaning",
+        "difference": "완전更像‘完全、超级’，진짜更像‘真的’。",
+        "target_expression_id": "expr_0005"
+      },
+      {
+        "target_expression": "대박",
+        "relation_type": "contrast",
+        "difference": "대박更偏惊叹，진짜可用于各种情绪加强。",
+        "target_expression_id": "expr_0006"
+      }
+    ],
+    "scenario": {
+      "title": "表达强烈感受",
+      "context": "朋友聊天时想强调自己的真实感受。"
+    },
+    "simple_example": {
+      "korean": "진짜 피곤해.",
+      "translation": "真的好累。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0005",
+        "prompt": "把这句话改成朋友聊天时的自然口语。",
+        "formal_sentence": "정말 재미있습니다.",
+        "natural_answer": "진짜 웃기다.",
+        "target_expression": "진짜",
+        "scenario_tag": "casual_chat",
+        "expression_id": "expr_0004"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0005",
+    "expression": "완전",
+    "display_expression": "완전",
+    "meaning": "完全；超级；特别",
+    "meaning_cluster": "程度加强 / 夸张表达",
+    "tone_tags": [
+      "emphasis",
+      "degree_booster"
+    ],
+    "scenario_tags": [
+      "praise",
+      "complaint",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "완전 내 스타일이야.",
+        "translation": "完全是我的风格。",
+        "tone_note": "强烈表达喜欢。",
+        "id": "ex_0013",
+        "expression_id": "expr_0005"
+      },
+      {
+        "korean": "오늘 완전 피곤해.",
+        "translation": "今天超级累。",
+        "tone_note": "加强状态或情绪。",
+        "id": "ex_0014",
+        "expression_id": "expr_0005"
+      },
+      {
+        "korean": "그 영화 완전 재밌어.",
+        "translation": "那部电影超好看。",
+        "tone_note": "很口语化的夸赞。",
+        "id": "ex_0015",
+        "expression_id": "expr_0005"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "진짜",
+        "relation_type": "similar_meaning",
+        "difference": "진짜强调真实性，완전强调程度。",
+        "target_expression_id": "expr_0004"
+      },
+      {
+        "target_expression": "엄청",
+        "relation_type": "similar_meaning",
+        "difference": "엄청也表示非常，但완전更口语、更有夸张感。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "夸张表达喜欢或疲惫",
+      "context": "和朋友分享感受时，用来加强程度。"
+    },
+    "simple_example": {
+      "korean": "완전 좋아.",
+      "translation": "超喜欢。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0006",
+        "prompt": "把这句话改得更像朋友间的夸赞。",
+        "formal_sentence": "그 영화는 매우 재미있습니다.",
+        "natural_answer": "그 영화 완전 재밌어.",
+        "target_expression": "완전",
+        "scenario_tag": "praise",
+        "expression_id": "expr_0005"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0006",
+    "expression": "대박",
+    "display_expression": "대박",
+    "meaning": "太厉害了；大发；天啊",
+    "meaning_cluster": "惊叹 / 意外 / 强烈反应",
+    "tone_tags": [
+      "surprise",
+      "excitement",
+      "admiration"
+    ],
+    "scenario_tags": [
+      "unexpected_news",
+      "praise",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "interjection",
+    "usage_examples": [
+      {
+        "korean": "와, 대박이다.",
+        "translation": "哇，太厉害了。",
+        "tone_note": "正向惊叹。",
+        "id": "ex_0016",
+        "expression_id": "expr_0006"
+      },
+      {
+        "korean": "이거 진짜 대박 맛있다.",
+        "translation": "这个真的超级好吃。",
+        "tone_note": "夸张表达好吃。",
+        "id": "ex_0017",
+        "expression_id": "expr_0006"
+      },
+      {
+        "korean": "대박, 너 그걸 어떻게 했어?",
+        "translation": "大发，你怎么做到的？",
+        "tone_note": "对对方能力表示惊讶。",
+        "id": "ex_0018",
+        "expression_id": "expr_0006"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "헐",
+        "relation_type": "contrast",
+        "difference": "헐更偏震惊或无语，대박更常用于惊叹。",
+        "target_expression_id": "expr_0007"
+      },
+      {
+        "target_expression": "미쳤다",
+        "relation_type": "stronger_than",
+        "difference": "미쳤다更夸张、更年轻化。",
+        "target_expression_id": "expr_0030"
+      }
+    ],
+    "scenario": {
+      "title": "听到好消息或看到厉害的东西",
+      "context": "朋友展示了很厉害的成果，你很惊讶。"
+    },
+    "simple_example": {
+      "korean": "와 대박.",
+      "translation": "哇，大发。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0007",
+        "prompt": "把这句话改成自然惊叹。",
+        "formal_sentence": "이것은 매우 놀랍습니다.",
+        "natural_answer": "와, 대박이다.",
+        "target_expression": "대박",
+        "scenario_tag": "unexpected_news",
+        "expression_id": "expr_0006"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0007",
+    "expression": "헐",
+    "display_expression": "헐",
+    "meaning": "天啊；不会吧；无语了",
+    "meaning_cluster": "震惊 / 无语 / 不敢相信",
+    "tone_tags": [
+      "shock",
+      "disbelief",
+      "awkwardness"
+    ],
+    "scenario_tags": [
+      "unexpected_news",
+      "awkward_moment",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "interjection",
+    "usage_examples": [
+      {
+        "korean": "헐, 진짜?",
+        "translation": "天啊，真的吗？",
+        "tone_note": "听到意外消息时的反应。",
+        "id": "ex_0019",
+        "expression_id": "expr_0007"
+      },
+      {
+        "korean": "헐, 말도 안 돼.",
+        "translation": "天啊，不可能吧。",
+        "tone_note": "表达不敢相信。",
+        "id": "ex_0020",
+        "expression_id": "expr_0007"
+      },
+      {
+        "korean": "헐, 너 뭐야.",
+        "translation": "天啊，你怎么回事。",
+        "tone_note": "轻微无语或吐槽。",
+        "id": "ex_0021",
+        "expression_id": "expr_0007"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "대박",
+        "relation_type": "contrast",
+        "difference": "대박更偏正向惊叹，헐可正向也可负向。",
+        "target_expression_id": "expr_0006"
+      },
+      {
+        "target_expression": "설마",
+        "relation_type": "related_scenario",
+        "difference": "설마更强调‘不会吧’的怀疑。",
+        "target_expression_id": "expr_0014"
+      }
+    ],
+    "scenario": {
+      "title": "听到离谱消息",
+      "context": "朋友告诉你一个很意外的事情。"
+    },
+    "simple_example": {
+      "korean": "헐, 진짜야?",
+      "translation": "天啊，是真的吗？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0008",
+        "prompt": "把这句话改成自然的震惊反应。",
+        "formal_sentence": "정말 믿기 어렵습니다.",
+        "natural_answer": "헐, 진짜?",
+        "target_expression": "헐",
+        "scenario_tag": "unexpected_news",
+        "expression_id": "expr_0007"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0008",
+    "expression": "미치겠다",
+    "display_expression": "미치겠다",
+    "meaning": "我要疯了；快受不了了",
+    "meaning_cluster": "崩溃 / 焦虑 / 无语",
+    "tone_tags": [
+      "frustration",
+      "overwhelmed",
+      "complaint"
+    ],
+    "scenario_tags": [
+      "exam_stress",
+      "work_stress",
+      "annoying_situation"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "fixed_expression",
+    "usage_examples": [
+      {
+        "korean": "아 진짜 미치겠다.",
+        "translation": "啊，真的要疯了。",
+        "tone_note": "表达压力或崩溃。",
+        "id": "ex_0022",
+        "expression_id": "expr_0008"
+      },
+      {
+        "korean": "시험 때문에 미치겠어.",
+        "translation": "因为考试快疯了。",
+        "tone_note": "压力很大时使用。",
+        "id": "ex_0023",
+        "expression_id": "expr_0008"
+      },
+      {
+        "korean": "너 때문에 미치겠다.",
+        "translation": "因为你我要疯了。",
+        "tone_note": "对熟人抱怨。",
+        "id": "ex_0024",
+        "expression_id": "expr_0008"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "답답하다",
+        "relation_type": "related_scenario",
+        "difference": "답답하다更偏憋闷，미치겠다更强烈。",
+        "target_expression_id": "expr_0022"
+      },
+      {
+        "target_expression": "어이없다",
+        "relation_type": "contrast",
+        "difference": "어이없다偏无语，미치겠다偏崩溃。",
+        "target_expression_id": "expr_0024"
+      }
+    ],
+    "scenario": {
+      "title": "考试前压力很大",
+      "context": "事情太多，你对朋友吐槽自己快崩溃了。"
+    },
+    "simple_example": {
+      "korean": "아 미치겠다.",
+      "translation": "啊我要疯了。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0009",
+        "prompt": "把这句话改成自然崩溃的口语。",
+        "formal_sentence": "저는 매우 스트레스를 받고 있습니다.",
+        "natural_answer": "아 진짜 미치겠다.",
+        "target_expression": "미치겠다",
+        "scenario_tag": "exam_stress",
+        "expression_id": "expr_0008"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0009",
+    "expression": "장난 아니야",
+    "display_expression": "장난 아니야",
+    "meaning": "不是开玩笑的；程度很夸张",
+    "meaning_cluster": "夸张强调 / 程度很强",
+    "tone_tags": [
+      "emphasis",
+      "exaggeration",
+      "surprise"
+    ],
+    "scenario_tags": [
+      "weather",
+      "praise",
+      "complaint"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "fixed_expression",
+    "usage_examples": [
+      {
+        "korean": "오늘 날씨 장난 아니야.",
+        "translation": "今天天气不是开玩笑的。",
+        "tone_note": "强调天气很夸张。",
+        "id": "ex_0025",
+        "expression_id": "expr_0009"
+      },
+      {
+        "korean": "걔 인기 장난 아니더라.",
+        "translation": "他人气真的很高。",
+        "tone_note": "强调程度惊人。",
+        "id": "ex_0026",
+        "expression_id": "expr_0009"
+      },
+      {
+        "korean": "이거 진짜 장난 아니다.",
+        "translation": "这个真的不得了。",
+        "tone_note": "可用于正向或负向强调。",
+        "id": "ex_0027",
+        "expression_id": "expr_0009"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "대박",
+        "relation_type": "similar_meaning",
+        "difference": "대박更像惊叹，장난 아니야更强调程度。",
+        "target_expression_id": "expr_0006"
+      },
+      {
+        "target_expression": "완전",
+        "relation_type": "related_scenario",
+        "difference": "완전是程度副词，장난 아니야是完整表达。",
+        "target_expression_id": "expr_0005"
+      }
+    ],
+    "scenario": {
+      "title": "强调某事程度很强",
+      "context": "天气特别热，或某件事特别夸张。"
+    },
+    "simple_example": {
+      "korean": "요즘 더위 장난 아니야.",
+      "translation": "最近热得不得了。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0010",
+        "prompt": "把这句话改成自然夸张的口语。",
+        "formal_sentence": "오늘 날씨가 매우 덥습니다.",
+        "natural_answer": "오늘 날씨 장난 아니야.",
+        "target_expression": "장난 아니야",
+        "scenario_tag": "weather",
+        "expression_id": "expr_0009"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0010",
+    "expression": "너무하다",
+    "display_expression": "너무하다",
+    "meaning": "太过分了",
+    "meaning_cluster": "不满 / 委屈 / 抱怨",
+    "tone_tags": [
+      "complaint",
+      "hurt",
+      "frustration"
+    ],
+    "scenario_tags": [
+      "unfair_treatment",
+      "friend_conflict",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "descriptive_verb",
+    "usage_examples": [
+      {
+        "korean": "너 진짜 너무한다.",
+        "translation": "你真的太过分了。",
+        "tone_note": "直接表达不满。",
+        "id": "ex_0028",
+        "expression_id": "expr_0010"
+      },
+      {
+        "korean": "이건 좀 너무한 거 아니야?",
+        "translation": "这是不是有点过分了？",
+        "tone_note": "更委婉地表达不满。",
+        "id": "ex_0029",
+        "expression_id": "expr_0010"
+      },
+      {
+        "korean": "가격이 너무하네.",
+        "translation": "价格也太过分了。",
+        "tone_note": "对价格或情况抱怨。",
+        "id": "ex_0030",
+        "expression_id": "expr_0010"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "서운하다",
+        "relation_type": "related_scenario",
+        "difference": "서운하다更偏心里失落，너무하다更直接批评对方过分。",
+        "target_expression_id": "expr_0023"
+      },
+      {
+        "target_expression": "어이없다",
+        "relation_type": "contrast",
+        "difference": "어이없다偏无语荒唐，너무하다偏不满。",
+        "target_expression_id": "expr_0024"
+      }
+    ],
+    "scenario": {
+      "title": "朋友做了让你不满的事",
+      "context": "你觉得对方的行为有点过分。"
+    },
+    "simple_example": {
+      "korean": "진짜 너무하네.",
+      "translation": "真的太过分了。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0011",
+        "prompt": "把这句话改成自然表达不满的口语。",
+        "formal_sentence": "당신의 행동은 적절하지 않습니다.",
+        "natural_answer": "너 진짜 너무한다.",
+        "target_expression": "너무하다",
+        "scenario_tag": "unfair_treatment",
+        "expression_id": "expr_0010"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0011",
+    "expression": "그니까",
+    "display_expression": "그니까",
+    "meaning": "就是说啊；所以嘛",
+    "meaning_cluster": "附和 / 强调 / 推进话题",
+    "tone_tags": [
+      "agreement",
+      "emphasis",
+      "frustration"
+    ],
+    "scenario_tags": [
+      "agreeing",
+      "complaint",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "discourse_marker",
+    "usage_examples": [
+      {
+        "korean": "그니까 내 말이.",
+        "translation": "就是说啊，我也是这么说。",
+        "tone_note": "强烈附和对方。",
+        "id": "ex_0031",
+        "expression_id": "expr_0011"
+      },
+      {
+        "korean": "그니까 왜 그랬냐고.",
+        "translation": "所以说你为什么那样做啊。",
+        "tone_note": "带一点追问或不满。",
+        "id": "ex_0032",
+        "expression_id": "expr_0011"
+      },
+      {
+        "korean": "그니까 좀 일찍 나오지.",
+        "translation": "所以说你早点出来嘛。",
+        "tone_note": "带抱怨的建议。",
+        "id": "ex_0033",
+        "expression_id": "expr_0011"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "맞아",
+        "relation_type": "similar_meaning",
+        "difference": "맞아只是认同，그니까有推进话题或强调逻辑的感觉。",
+        "target_expression_id": "expr_0012"
+      },
+      {
+        "target_expression": "그러니까",
+        "relation_type": "similar_function",
+        "difference": "그러니까更完整，그니까更口语。",
+        "target_expression_id": "expr_0027"
+      }
+    ],
+    "scenario": {
+      "title": "朋友说出了你的想法",
+      "context": "你强烈认同朋友的话，并继续吐槽。"
+    },
+    "simple_example": {
+      "korean": "그니까 말이야.",
+      "translation": "就是说啊。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0012",
+        "prompt": "把这句话改成自然附和。",
+        "formal_sentence": "저도 그렇게 생각합니다.",
+        "natural_answer": "그니까 내 말이.",
+        "target_expression": "그니까",
+        "scenario_tag": "agreeing",
+        "expression_id": "expr_0011"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0012",
+    "expression": "맞아",
+    "display_expression": "맞아",
+    "meaning": "对；没错",
+    "meaning_cluster": "认同 / 附和",
+    "tone_tags": [
+      "agreement",
+      "confirmation"
+    ],
+    "scenario_tags": [
+      "agreeing",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers",
+      "close_relationship"
+    ],
+    "grammar_type": "response",
+    "usage_examples": [
+      {
+        "korean": "맞아, 나도 그렇게 생각해.",
+        "translation": "对，我也这么想。",
+        "tone_note": "自然表达认同。",
+        "id": "ex_0034",
+        "expression_id": "expr_0012"
+      },
+      {
+        "korean": "아 맞아, 그거 기억난다.",
+        "translation": "啊对，我想起来了。",
+        "tone_note": "突然想起某事。",
+        "id": "ex_0035",
+        "expression_id": "expr_0012"
+      },
+      {
+        "korean": "맞아 맞아.",
+        "translation": "对对对。",
+        "tone_note": "连续使用表示强烈附和。",
+        "id": "ex_0036",
+        "expression_id": "expr_0012"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그니까",
+        "relation_type": "contrast",
+        "difference": "그니까比맞아更有‘所以说嘛’的推进感。",
+        "target_expression_id": "expr_0011"
+      },
+      {
+        "target_expression": "그러게",
+        "relation_type": "similar_meaning",
+        "difference": "그러게带有‘是啊，我也觉得’的语气。",
+        "target_expression_id": "expr_0036"
+      }
+    ],
+    "scenario": {
+      "title": "认同朋友的观点",
+      "context": "朋友说了一个你同意的观点。"
+    },
+    "simple_example": {
+      "korean": "맞아, 나도 그래.",
+      "translation": "对，我也是。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0013",
+        "prompt": "把这句话改成自然附和。",
+        "formal_sentence": "당신의 의견에 동의합니다.",
+        "natural_answer": "맞아, 나도 그렇게 생각해.",
+        "target_expression": "맞아",
+        "scenario_tag": "agreeing",
+        "expression_id": "expr_0012"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0013",
+    "expression": "아니 근데",
+    "display_expression": "아니 근데",
+    "meaning": "不是，但是；等一下，我想说",
+    "meaning_cluster": "转折 / 反驳前的铺垫",
+    "tone_tags": [
+      "soft_disagreement",
+      "topic_shift",
+      "frustration"
+    ],
+    "scenario_tags": [
+      "disagreeing",
+      "complaint",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "discourse_marker",
+    "usage_examples": [
+      {
+        "korean": "아니 근데 그건 좀 아니지.",
+        "translation": "不是，但那个有点不对吧。",
+        "tone_note": "委婉但明确地反驳。",
+        "id": "ex_0037",
+        "expression_id": "expr_0013"
+      },
+      {
+        "korean": "아니 근데 왜 나한테 그래?",
+        "translation": "不是，但你为什么对我这样？",
+        "tone_note": "带不满地追问。",
+        "id": "ex_0038",
+        "expression_id": "expr_0013"
+      },
+      {
+        "korean": "아니 근데 진짜 웃기지 않아?",
+        "translation": "不是，但真的不好笑吗？",
+        "tone_note": "引出自己的看法。",
+        "id": "ex_0039",
+        "expression_id": "expr_0013"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "근데",
+        "relation_type": "similar_function",
+        "difference": "근데只是转折，아니 근데更有口语反应感。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "이건 좀 아니지",
+        "relation_type": "related_scenario",
+        "difference": "이건 좀 아니지是具体表达不认同。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "想反驳朋友的话",
+      "context": "朋友说了一件你不太认同的事，你想自然插入反驳。"
+    },
+    "simple_example": {
+      "korean": "아니 근데 좀 이상해.",
+      "translation": "不是，但有点奇怪。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0014",
+        "prompt": "把这句话改成自然反驳前的口语。",
+        "formal_sentence": "하지만 그것은 적절하지 않습니다.",
+        "natural_answer": "아니 근데 그건 좀 아니지.",
+        "target_expression": "아니 근데",
+        "scenario_tag": "disagreeing",
+        "expression_id": "expr_0013"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0014",
+    "expression": "설마",
+    "display_expression": "설마",
+    "meaning": "不会吧；难道……？",
+    "meaning_cluster": "怀疑 / 不敢相信",
+    "tone_tags": [
+      "disbelief",
+      "suspicion",
+      "surprise"
+    ],
+    "scenario_tags": [
+      "unexpected_news",
+      "guessing",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "설마 너도 몰랐어?",
+        "translation": "不会吧，你也不知道？",
+        "tone_note": "不敢相信对方不知道。",
+        "id": "ex_0040",
+        "expression_id": "expr_0014"
+      },
+      {
+        "korean": "설마 진짜야?",
+        "translation": "不会是真的吧？",
+        "tone_note": "半信半疑。",
+        "id": "ex_0041",
+        "expression_id": "expr_0014"
+      },
+      {
+        "korean": "설마 또 늦는 거야?",
+        "translation": "不会又迟到吧？",
+        "tone_note": "带一点担心或吐槽。",
+        "id": "ex_0042",
+        "expression_id": "expr_0014"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "헐",
+        "relation_type": "related_scenario",
+        "difference": "헐是直接反应，설마是怀疑式反应。",
+        "target_expression_id": "expr_0007"
+      },
+      {
+        "target_expression": "그럴 리가",
+        "relation_type": "similar_meaning",
+        "difference": "그럴 리가更像‘不可能’。",
+        "target_expression_id": "expr_0015"
+      }
+    ],
+    "scenario": {
+      "title": "听到难以置信的消息",
+      "context": "你不确定消息是否是真的。"
+    },
+    "simple_example": {
+      "korean": "설마 아니겠지?",
+      "translation": "不会吧，应该不是吧？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0015",
+        "prompt": "把这句话改成自然的不敢相信。",
+        "formal_sentence": "그것은 사실이 아니기를 바랍니다.",
+        "natural_answer": "설마 진짜야?",
+        "target_expression": "설마",
+        "scenario_tag": "unexpected_news",
+        "expression_id": "expr_0014"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0015",
+    "expression": "그럴 리가",
+    "display_expression": "그럴 리가",
+    "meaning": "不可能；怎么会那样",
+    "meaning_cluster": "否认 / 不相信",
+    "tone_tags": [
+      "disbelief",
+      "denial"
+    ],
+    "scenario_tags": [
+      "unexpected_news",
+      "rumor",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "fixed_expression",
+    "usage_examples": [
+      {
+        "korean": "그럴 리가 없잖아.",
+        "translation": "不可能啊。",
+        "tone_note": "强烈否定某种可能。",
+        "id": "ex_0043",
+        "expression_id": "expr_0015"
+      },
+      {
+        "korean": "에이, 그럴 리가.",
+        "translation": "哎呀，不可能。",
+        "tone_note": "轻松地表示不相信。",
+        "id": "ex_0044",
+        "expression_id": "expr_0015"
+      },
+      {
+        "korean": "걔가 그랬다고? 그럴 리가.",
+        "translation": "你说是他做的？不可能吧。",
+        "tone_note": "对消息表示怀疑。",
+        "id": "ex_0045",
+        "expression_id": "expr_0015"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "설마",
+        "relation_type": "stronger_than",
+        "difference": "설마是怀疑，그럴 리가是否定可能性更强。",
+        "target_expression_id": "expr_0014"
+      },
+      {
+        "target_expression": "말도 안 돼",
+        "relation_type": "similar_meaning",
+        "difference": "말도 안 돼更像‘太离谱了/说不通’。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "否认一个不可信的消息",
+      "context": "朋友说了一个你觉得不可能的消息。"
+    },
+    "simple_example": {
+      "korean": "그럴 리가 없어.",
+      "translation": "不可能的。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0016",
+        "prompt": "把这句话改成自然否认。",
+        "formal_sentence": "그것은 사실일 가능성이 낮습니다.",
+        "natural_answer": "에이, 그럴 리가.",
+        "target_expression": "그럴 리가",
+        "scenario_tag": "rumor",
+        "expression_id": "expr_0015"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0016",
+    "expression": "어쩌라고",
+    "display_expression": "어쩌라고",
+    "meaning": "那又怎样；你想让我怎么办",
+    "meaning_cluster": "不耐烦 / 顶嘴 / 冷淡反应",
+    "tone_tags": [
+      "annoyance",
+      "defensive",
+      "dismissive"
+    ],
+    "scenario_tags": [
+      "argument",
+      "friend_conflict",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "very_close_friends",
+      "conflict"
+    ],
+    "grammar_type": "fixed_expression",
+    "usage_examples": [
+      {
+        "korean": "그래서 어쩌라고?",
+        "translation": "所以那又怎样？",
+        "tone_note": "很不耐烦，可能冒犯。",
+        "id": "ex_0046",
+        "expression_id": "expr_0016"
+      },
+      {
+        "korean": "나보고 어쩌라고.",
+        "translation": "那你要我怎么办。",
+        "tone_note": "带防御或不满。",
+        "id": "ex_0047",
+        "expression_id": "expr_0016"
+      },
+      {
+        "korean": "어쩌라고, 내 잘못도 아닌데.",
+        "translation": "那又怎样，又不是我的错。",
+        "tone_note": "推开责任。",
+        "id": "ex_0048",
+        "expression_id": "expr_0016"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그래서?",
+        "relation_type": "softer_than",
+        "difference": "그래서?也冷淡，但比어쩌라고稍弱。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "뭐 어쩌라고",
+        "relation_type": "stronger_than",
+        "difference": "뭐 어쩌라고更粗、更强硬。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "和朋友争执时顶嘴",
+      "context": "对方一直指责你，你不耐烦地回应。"
+    },
+    "simple_example": {
+      "korean": "그래서 어쩌라고?",
+      "translation": "所以那又怎样？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0017",
+        "prompt": "把这句话改成带不耐烦的口语。",
+        "formal_sentence": "그래서 제가 무엇을 해야 합니까?",
+        "natural_answer": "그래서 어쩌라고?",
+        "target_expression": "어쩌라고",
+        "scenario_tag": "argument",
+        "expression_id": "expr_0016"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0017",
+    "expression": "귀찮아",
+    "display_expression": "귀찮아",
+    "meaning": "麻烦；懒得做",
+    "meaning_cluster": "嫌麻烦 / 懒散",
+    "tone_tags": [
+      "annoyance",
+      "lazy",
+      "reluctance"
+    ],
+    "scenario_tags": [
+      "declining_invitation",
+      "daily_life",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "descriptive_verb",
+    "usage_examples": [
+      {
+        "korean": "아 귀찮아.",
+        "translation": "啊，好麻烦。",
+        "tone_note": "直接表达不想做。",
+        "id": "ex_0049",
+        "expression_id": "expr_0017"
+      },
+      {
+        "korean": "나가기 귀찮아.",
+        "translation": "懒得出去。",
+        "tone_note": "日常口语。",
+        "id": "ex_0050",
+        "expression_id": "expr_0017"
+      },
+      {
+        "korean": "설거지하기 귀찮다.",
+        "translation": "懒得洗碗。",
+        "tone_note": "表达对任务的抗拒。",
+        "id": "ex_0051",
+        "expression_id": "expr_0017"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "하기 싫어",
+        "relation_type": "similar_meaning",
+        "difference": "하기 싫어是‘不想做’，귀찮아更偏觉得麻烦。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "피곤해",
+        "relation_type": "contrast",
+        "difference": "피곤해是累，귀찮아是嫌麻烦。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "不想出门",
+      "context": "朋友约你出去，但你懒得动。"
+    },
+    "simple_example": {
+      "korean": "나가기 귀찮아.",
+      "translation": "懒得出去。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0018",
+        "prompt": "把这句话改成自然表达嫌麻烦。",
+        "formal_sentence": "저는 밖에 나가고 싶지 않습니다.",
+        "natural_answer": "나가기 귀찮아.",
+        "target_expression": "귀찮아",
+        "scenario_tag": "declining_invitation",
+        "expression_id": "expr_0017"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0018",
+    "expression": "별로야",
+    "display_expression": "별로야",
+    "meaning": "不怎么样；一般般",
+    "meaning_cluster": "轻微否定 / 不满意",
+    "tone_tags": [
+      "mild_dislike",
+      "disappointment"
+    ],
+    "scenario_tags": [
+      "reviewing_food",
+      "commenting",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "descriptive_verb",
+    "usage_examples": [
+      {
+        "korean": "생각보다 별로야.",
+        "translation": "比想象中一般。",
+        "tone_note": "委婉表达不满意。",
+        "id": "ex_0052",
+        "expression_id": "expr_0018"
+      },
+      {
+        "korean": "맛이 좀 별로야.",
+        "translation": "味道有点一般。",
+        "tone_note": "评价食物。",
+        "id": "ex_0053",
+        "expression_id": "expr_0018"
+      },
+      {
+        "korean": "난 그거 별로야.",
+        "translation": "我不太喜欢那个。",
+        "tone_note": "表达个人偏好。",
+        "id": "ex_0054",
+        "expression_id": "expr_0018"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그냥 그래",
+        "relation_type": "similar_meaning",
+        "difference": "그냥 그래更像‘就那样’，별로야更明确不太好。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "싫어",
+        "relation_type": "stronger_than",
+        "difference": "싫어更强烈，별로야更委婉。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "评价一家餐厅",
+      "context": "朋友问你觉得食物怎么样，你觉得一般。"
+    },
+    "simple_example": {
+      "korean": "맛이 좀 별로야.",
+      "translation": "味道有点一般。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0019",
+        "prompt": "把这句话改成自然评价。",
+        "formal_sentence": "맛이 좋지 않습니다.",
+        "natural_answer": "맛이 좀 별로야.",
+        "target_expression": "별로야",
+        "scenario_tag": "reviewing_food",
+        "expression_id": "expr_0018"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0019",
+    "expression": "괜찮네",
+    "display_expression": "괜찮네",
+    "meaning": "还不错诶",
+    "meaning_cluster": "还不错 / 轻微认可",
+    "tone_tags": [
+      "mild_praise",
+      "surprise",
+      "approval"
+    ],
+    "scenario_tags": [
+      "trying_food",
+      "commenting",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "descriptive_verb",
+    "usage_examples": [
+      {
+        "korean": "이거 괜찮네.",
+        "translation": "这个还不错诶。",
+        "tone_note": "比预期好。",
+        "id": "ex_0055",
+        "expression_id": "expr_0019"
+      },
+      {
+        "korean": "생각보다 괜찮네.",
+        "translation": "比想象中不错。",
+        "tone_note": "轻微惊喜。",
+        "id": "ex_0056",
+        "expression_id": "expr_0019"
+      },
+      {
+        "korean": "너 오늘 옷 괜찮네.",
+        "translation": "你今天衣服不错诶。",
+        "tone_note": "朋友间轻松夸赞。",
+        "id": "ex_0057",
+        "expression_id": "expr_0019"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "좋아",
+        "relation_type": "softer_than",
+        "difference": "좋아更直接正向，괜찮네更像‘还不错’。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "나쁘지 않네",
+        "relation_type": "similar_meaning",
+        "difference": "나쁘지 않네更含蓄。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "试了新东西后评价",
+      "context": "你尝试了一样东西，觉得比预期好。"
+    },
+    "simple_example": {
+      "korean": "생각보다 괜찮네.",
+      "translation": "比想象中不错。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0020",
+        "prompt": "把这句话改成自然轻微夸赞。",
+        "formal_sentence": "이것은 생각보다 좋습니다.",
+        "natural_answer": "이거 생각보다 괜찮네.",
+        "target_expression": "괜찮네",
+        "scenario_tag": "commenting",
+        "expression_id": "expr_0019"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0020",
+    "expression": "대충",
+    "display_expression": "대충",
+    "meaning": "随便；大概；差不多",
+    "meaning_cluster": "随便 / 大概 / 不认真",
+    "tone_tags": [
+      "casual",
+      "roughly",
+      "dismissive"
+    ],
+    "scenario_tags": [
+      "daily_life",
+      "work_shortcut",
+      "casual_chat"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "대충 해도 돼.",
+        "translation": "随便做一下也行。",
+        "tone_note": "表示不需要太认真。",
+        "id": "ex_0058",
+        "expression_id": "expr_0020"
+      },
+      {
+        "korean": "대충 알겠어.",
+        "translation": "大概懂了。",
+        "tone_note": "表示粗略理解。",
+        "id": "ex_0059",
+        "expression_id": "expr_0020"
+      },
+      {
+        "korean": "대충 입고 나와.",
+        "translation": "随便穿穿出来吧。",
+        "tone_note": "朋友间随意说法。",
+        "id": "ex_0060",
+        "expression_id": "expr_0020"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그냥",
+        "relation_type": "related_scenario",
+        "difference": "그냥是‘就那样/随便’，대충更偏粗略、不精细。",
+        "target_expression_id": "expr_0028"
+      },
+      {
+        "target_expression": "대강",
+        "relation_type": "similar_meaning",
+        "difference": "대강也表示大概，但대충更口语。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "不想太认真处理某事",
+      "context": "朋友问要不要精心准备，你觉得不用。"
+    },
+    "simple_example": {
+      "korean": "대충 해.",
+      "translation": "随便做吧。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0021",
+        "prompt": "把这句话改成自然随意的口语。",
+        "formal_sentence": "정확하게 하지 않아도 됩니다.",
+        "natural_answer": "대충 해도 돼.",
+        "target_expression": "대충",
+        "scenario_tag": "daily_life",
+        "expression_id": "expr_0020"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0021",
+    "expression": "눈치 없다",
+    "display_expression": "눈치 없다",
+    "meaning": "没眼力见；不会看气氛",
+    "meaning_cluster": "吐槽 / 社交判断",
+    "tone_tags": [
+      "complaint",
+      "social_awareness",
+      "criticism"
+    ],
+    "scenario_tags": [
+      "awkward_moment",
+      "friend_comment",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "descriptive_expression",
+    "usage_examples": [
+      {
+        "korean": "너 진짜 눈치 없다.",
+        "translation": "你真的没眼力见。",
+        "tone_note": "直接吐槽熟人。",
+        "id": "ex_0061",
+        "expression_id": "expr_0021"
+      },
+      {
+        "korean": "걔 좀 눈치 없지 않아?",
+        "translation": "他是不是有点没眼力见？",
+        "tone_note": "和朋友讨论别人。",
+        "id": "ex_0062",
+        "expression_id": "expr_0021"
+      },
+      {
+        "korean": "이 상황에서 그런 말을 해? 눈치 없네.",
+        "translation": "这种情况说那种话？真没眼力见。",
+        "tone_note": "批评不合时宜的行为。",
+        "id": "ex_0063",
+        "expression_id": "expr_0021"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "센스 없다",
+        "relation_type": "similar_meaning",
+        "difference": "센스 없다更偏没品味/没感觉，눈치 없다偏不会看气氛。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "분위기 파악 못하다",
+        "relation_type": "related_scenario",
+        "difference": "更直白地说不会读空气。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "朋友说了不合时宜的话",
+      "context": "有人在尴尬场合说错话，你吐槽他不会看气氛。"
+    },
+    "simple_example": {
+      "korean": "너 눈치 없네.",
+      "translation": "你真没眼力见。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0022",
+        "prompt": "把这句话改成自然吐槽。",
+        "formal_sentence": "그 사람은 상황을 잘 파악하지 못합니다.",
+        "natural_answer": "걔 좀 눈치 없지 않아?",
+        "target_expression": "눈치 없다",
+        "scenario_tag": "awkward_moment",
+        "expression_id": "expr_0021"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0022",
+    "expression": "답답하다",
+    "display_expression": "답답하다",
+    "meaning": "郁闷；憋得慌；让人着急",
+    "meaning_cluster": "憋闷 / 着急 / 无力感",
+    "tone_tags": [
+      "frustration",
+      "stuck",
+      "impatience"
+    ],
+    "scenario_tags": [
+      "miscommunication",
+      "slow_progress",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "peers",
+      "close_relationship"
+    ],
+    "grammar_type": "descriptive_verb",
+    "usage_examples": [
+      {
+        "korean": "아 답답해.",
+        "translation": "啊，好憋屈。",
+        "tone_note": "事情不顺时表达郁闷。",
+        "id": "ex_0064",
+        "expression_id": "expr_0022"
+      },
+      {
+        "korean": "말이 안 통해서 답답해.",
+        "translation": "沟通不了，真让人郁闷。",
+        "tone_note": "强调沟通困难。",
+        "id": "ex_0065",
+        "expression_id": "expr_0022"
+      },
+      {
+        "korean": "왜 이렇게 답답하게 굴어?",
+        "translation": "你怎么这么让人着急？",
+        "tone_note": "对熟人不满。",
+        "id": "ex_0066",
+        "expression_id": "expr_0022"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "미치겠다",
+        "relation_type": "related_scenario",
+        "difference": "미치겠다更强烈、更崩溃。",
+        "target_expression_id": "expr_0008"
+      },
+      {
+        "target_expression": "짜증나다",
+        "relation_type": "similar_meaning",
+        "difference": "짜증나다偏烦躁，답답하다偏憋闷。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "沟通不顺很郁闷",
+      "context": "你和别人沟通半天，对方还是不理解。"
+    },
+    "simple_example": {
+      "korean": "아 진짜 답답해.",
+      "translation": "啊真的好郁闷。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0023",
+        "prompt": "把这句话改成自然表达郁闷。",
+        "formal_sentence": "의사소통이 되지 않아 불편합니다.",
+        "natural_answer": "말이 안 통해서 답답해.",
+        "target_expression": "답답하다",
+        "scenario_tag": "miscommunication",
+        "expression_id": "expr_0022"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0023",
+    "expression": "서운하다",
+    "display_expression": "서운하다",
+    "meaning": "有点伤心；失落；觉得被冷落",
+    "meaning_cluster": "委屈 / 失落 / 被忽视",
+    "tone_tags": [
+      "hurt",
+      "disappointed",
+      "emotional"
+    ],
+    "scenario_tags": [
+      "friend_conflict",
+      "relationship",
+      "family"
+    ],
+    "difficulty": "intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "close_relationship",
+      "family"
+    ],
+    "grammar_type": "descriptive_verb",
+    "usage_examples": [
+      {
+        "korean": "나 좀 서운했어.",
+        "translation": "我有点失落。",
+        "tone_note": "委婉表达受伤。",
+        "id": "ex_0067",
+        "expression_id": "expr_0023"
+      },
+      {
+        "korean": "그 말 듣고 서운하더라.",
+        "translation": "听到那句话我有点难过。",
+        "tone_note": "表达情绪受伤。",
+        "id": "ex_0068",
+        "expression_id": "expr_0023"
+      },
+      {
+        "korean": "생일 까먹은 건 좀 서운하지.",
+        "translation": "忘了生日是会有点伤心吧。",
+        "tone_note": "解释为什么觉得被忽视。",
+        "id": "ex_0069",
+        "expression_id": "expr_0023"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "섭섭하다",
+        "relation_type": "similar_meaning",
+        "difference": "섭섭하다和서운하다很接近，也表示失落。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "너무하다",
+        "relation_type": "contrast",
+        "difference": "너무하다偏指责对方过分，서운하다偏表达自己受伤。",
+        "target_expression_id": "expr_0010"
+      }
+    ],
+    "scenario": {
+      "title": "朋友忘记重要事情",
+      "context": "朋友忘了你的生日，你不想太直接责怪，但很失落。"
+    },
+    "simple_example": {
+      "korean": "나 좀 서운했어.",
+      "translation": "我有点失落。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0024",
+        "prompt": "把这句话改成自然表达委屈。",
+        "formal_sentence": "당신이 제 생일을 잊어서 저는 실망했습니다.",
+        "natural_answer": "네가 내 생일 까먹어서 나 좀 서운했어.",
+        "target_expression": "서운하다",
+        "scenario_tag": "friend_conflict",
+        "expression_id": "expr_0023"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0024",
+    "expression": "어이없다",
+    "display_expression": "어이없다",
+    "meaning": "无语；荒唐；离谱",
+    "meaning_cluster": "无语 / 觉得荒唐",
+    "tone_tags": [
+      "speechless",
+      "absurd",
+      "frustration"
+    ],
+    "scenario_tags": [
+      "unfair_situation",
+      "unexpected_news",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "peers"
+    ],
+    "grammar_type": "descriptive_verb",
+    "usage_examples": [
+      {
+        "korean": "진짜 어이없다.",
+        "translation": "真的无语。",
+        "tone_note": "对离谱情况的直接反应。",
+        "id": "ex_0070",
+        "expression_id": "expr_0024"
+      },
+      {
+        "korean": "그 말 듣고 어이없었어.",
+        "translation": "听到那话我都无语了。",
+        "tone_note": "表达被对方言论震惊。",
+        "id": "ex_0071",
+        "expression_id": "expr_0024"
+      },
+      {
+        "korean": "어이없어서 말이 안 나와.",
+        "translation": "无语到说不出话。",
+        "tone_note": "强烈无语。",
+        "id": "ex_0072",
+        "expression_id": "expr_0024"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "황당하다",
+        "relation_type": "similar_meaning",
+        "difference": "황당하다偏突然遇到荒唐事的懵，어이없다偏无语和不满。",
+        "target_expression_id": "expr_0025"
+      },
+      {
+        "target_expression": "말이 안 된다",
+        "relation_type": "related_scenario",
+        "difference": "말이 안 된다强调逻辑说不通。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "听到离谱的话",
+      "context": "别人说了很不合理的话，你觉得无语。"
+    },
+    "simple_example": {
+      "korean": "진짜 어이없네.",
+      "translation": "真的无语。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0025",
+        "prompt": "把这句话改成自然表达无语。",
+        "formal_sentence": "그 말은 매우 부당하고 이해하기 어렵습니다.",
+        "natural_answer": "그 말 듣고 진짜 어이없었어.",
+        "target_expression": "어이없다",
+        "scenario_tag": "unfair_situation",
+        "expression_id": "expr_0024"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0025",
+    "expression": "황당하다",
+    "display_expression": "황당하다",
+    "meaning": "荒唐；突然让人懵",
+    "meaning_cluster": "荒唐 / 惊讶 / 尴尬",
+    "tone_tags": [
+      "absurd",
+      "confused",
+      "surprise"
+    ],
+    "scenario_tags": [
+      "unexpected_situation",
+      "awkward_moment",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "peers",
+      "acquaintances"
+    ],
+    "grammar_type": "descriptive_verb",
+    "usage_examples": [
+      {
+        "korean": "너무 황당했어.",
+        "translation": "真的很荒唐。",
+        "tone_note": "回忆一个让人懵的情况。",
+        "id": "ex_0073",
+        "expression_id": "expr_0025"
+      },
+      {
+        "korean": "갑자기 그런 말을 해서 황당했어.",
+        "translation": "突然说那种话，我都懵了。",
+        "tone_note": "强调意外和不知所措。",
+        "id": "ex_0074",
+        "expression_id": "expr_0025"
+      },
+      {
+        "korean": "상황이 좀 황당하지 않아?",
+        "translation": "这个情况是不是有点荒唐？",
+        "tone_note": "和朋友讨论离谱局面。",
+        "id": "ex_0075",
+        "expression_id": "expr_0025"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "어이없다",
+        "relation_type": "similar_meaning",
+        "difference": "어이없다更带不满，황당하다更偏突然懵住。",
+        "target_expression_id": "expr_0024"
+      },
+      {
+        "target_expression": "당황스럽다",
+        "relation_type": "similar_meaning",
+        "difference": "당황스럽다更偏慌张、不知所措。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "遇到突然离谱的情况",
+      "context": "别人突然做了奇怪的事，你一时间不知道怎么反应。"
+    },
+    "simple_example": {
+      "korean": "좀 황당했어.",
+      "translation": "有点荒唐/懵。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0026",
+        "prompt": "把这句话改成自然表达突然懵住。",
+        "formal_sentence": "그 상황은 매우 예상 밖이었습니다.",
+        "natural_answer": "갑자기 그래서 좀 황당했어.",
+        "target_expression": "황당하다",
+        "scenario_tag": "unexpected_situation",
+        "expression_id": "expr_0025"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0026",
+    "expression": "말이야",
+    "display_expression": "말이야",
+    "meaning": "就是说啊 / 我是说",
+    "meaning_cluster": "补充说明 / 强调自己的意思",
+    "tone_tags": [
+      "emphasis",
+      "explanation",
+      "casual"
+    ],
+    "scenario_tags": [
+      "casual_chat",
+      "clarification",
+      "complaint"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "discourse_marker",
+    "usage_examples": [
+      {
+        "korean": "내 말이 그 말이야.",
+        "translation": "我说的就是这个意思啊。",
+        "tone_note": "强烈附和对方，表示“你懂我意思”。",
+        "id": "ex_0076",
+        "expression_id": "expr_0026"
+      },
+      {
+        "korean": "그러니까 말이야, 왜 그렇게 했냐고.",
+        "translation": "所以我就是说啊，为什么要那样做。",
+        "tone_note": "带一点追问或不满。",
+        "id": "ex_0077",
+        "expression_id": "expr_0026"
+      },
+      {
+        "korean": "그게 말이야, 생각보다 쉽지 않아.",
+        "translation": "那个啊，其实比想象中不容易。",
+        "tone_note": "开始解释事情时的自然口语铺垫。",
+        "id": "ex_0078",
+        "expression_id": "expr_0026"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그니까",
+        "relation_type": "similar_meaning",
+        "difference": "그니까更像‘所以说/就是说’，말이야更像补充或强调自己的话。",
+        "target_expression_id": "expr_0011"
+      },
+      {
+        "target_expression": "아니 근데",
+        "relation_type": "contrast",
+        "difference": "아니 근데常用于转折或提出不同意见，말이야更偏解释和补充。",
+        "target_expression_id": "expr_0013"
+      }
+    ],
+    "scenario": {
+      "title": "解释自己真正想说的意思",
+      "context": "朋友没有理解你的意思，你想重新强调或补充。"
+    },
+    "simple_example": {
+      "korean": "내 말이 그 말이야.",
+      "translation": "我说的就是这个意思。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0027",
+        "prompt": "把这句话改成朋友之间自然附和的口语。",
+        "formal_sentence": "제가 말하고 싶은 것도 바로 그것입니다.",
+        "natural_answer": "내 말이 그 말이야.",
+        "target_expression": "말이야",
+        "scenario_tag": "clarification",
+        "expression_id": "expr_0026"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0027",
+    "expression": "그러니까",
+    "display_expression": "그러니까",
+    "meaning": "所以说啊 / 就是因为这样",
+    "meaning_cluster": "附和 / 总结 / 解释原因",
+    "tone_tags": [
+      "agreement",
+      "emphasis",
+      "explanation"
+    ],
+    "scenario_tags": [
+      "casual_chat",
+      "agreeing",
+      "explaining"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "classmates",
+      "coworkers"
+    ],
+    "grammar_type": "discourse_marker",
+    "usage_examples": [
+      {
+        "korean": "그러니까 내가 하지 말랬잖아.",
+        "translation": "所以我不是说别做了吗。",
+        "tone_note": "带一点‘我早就说过’的语气。",
+        "id": "ex_0079",
+        "expression_id": "expr_0027"
+      },
+      {
+        "korean": "그러니까 좀 쉬라고.",
+        "translation": "所以说你休息一下嘛。",
+        "tone_note": "劝说对方时常见。",
+        "id": "ex_0080",
+        "expression_id": "expr_0027"
+      },
+      {
+        "korean": "그러니까 우리 먼저 가자.",
+        "translation": "所以我们先走吧。",
+        "tone_note": "自然地引出结论。",
+        "id": "ex_0081",
+        "expression_id": "expr_0027"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그니까",
+        "relation_type": "more_formal_than",
+        "difference": "그러니까更完整，그니까更口语、更随意。",
+        "target_expression_id": "expr_0011"
+      },
+      {
+        "target_expression": "-잖아",
+        "relation_type": "used_together",
+        "difference": "그러니까常和-잖아搭配，表达‘所以我不是说过了吗’。",
+        "target_expression_id": "expr_0001"
+      }
+    ],
+    "scenario": {
+      "title": "提醒朋友你之前已经说过",
+      "context": "朋友做错事后，你有点无奈地总结原因。"
+    },
+    "simple_example": {
+      "korean": "그러니까 내가 말했잖아.",
+      "translation": "所以我不是说过了吗。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0028",
+        "prompt": "把句子改得更像朋友间无奈提醒。",
+        "formal_sentence": "그래서 제가 하지 말라고 말씀드렸습니다.",
+        "natural_answer": "그러니까 내가 하지 말랬잖아.",
+        "target_expression": "그러니까",
+        "scenario_tag": "explaining",
+        "expression_id": "expr_0027"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0028",
+    "expression": "그냥",
+    "display_expression": "그냥",
+    "meaning": "就那样 / 没什么特别理由",
+    "meaning_cluster": "随意 / 淡化原因 / 不想解释",
+    "tone_tags": [
+      "casual",
+      "dismissive",
+      "softening"
+    ],
+    "scenario_tags": [
+      "casual_chat",
+      "avoiding_explanation",
+      "small_talk"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "그냥 집에 있었어.",
+        "translation": "就待在家了。",
+        "tone_note": "没有特别原因，随口回答。",
+        "id": "ex_0082",
+        "expression_id": "expr_0028"
+      },
+      {
+        "korean": "그냥 해봤어.",
+        "translation": "就试了一下。",
+        "tone_note": "淡化自己的动机。",
+        "id": "ex_0083",
+        "expression_id": "expr_0028"
+      },
+      {
+        "korean": "그냥 네 생각나서.",
+        "translation": "就突然想到你了。",
+        "tone_note": "在亲近关系中显得自然又有点温柔。",
+        "id": "ex_0084",
+        "expression_id": "expr_0028"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "대충",
+        "relation_type": "contrast",
+        "difference": "그냥表示没有特别理由，대충表示不认真或差不多。",
+        "target_expression_id": "expr_0020"
+      },
+      {
+        "target_expression": "별로야",
+        "relation_type": "contrast",
+        "difference": "그냥是中性表达，별로야带明确负面评价。",
+        "target_expression_id": "expr_0018"
+      }
+    ],
+    "scenario": {
+      "title": "朋友问你为什么做某事",
+      "context": "你不想解释太多，只想自然带过。"
+    },
+    "simple_example": {
+      "korean": "그냥 궁금해서.",
+      "translation": "就只是好奇。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0029",
+        "prompt": "把句子改成更自然、更随意的口语。",
+        "formal_sentence": "특별한 이유 없이 궁금했습니다.",
+        "natural_answer": "그냥 궁금해서.",
+        "target_expression": "그냥",
+        "scenario_tag": "avoiding_explanation",
+        "expression_id": "expr_0028"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0029",
+    "expression": "진심",
+    "display_expression": "진심",
+    "meaning": "真的 / 说真的",
+    "meaning_cluster": "真心强调 / 情绪加强",
+    "tone_tags": [
+      "emphasis",
+      "sincerity",
+      "casual"
+    ],
+    "scenario_tags": [
+      "casual_chat",
+      "strong_opinion",
+      "reaction"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "slang_adverb",
+    "usage_examples": [
+      {
+        "korean": "진심 너무 웃겨.",
+        "translation": "真的太好笑了。",
+        "tone_note": "比진짜更像年轻人口语强调。",
+        "id": "ex_0085",
+        "expression_id": "expr_0029"
+      },
+      {
+        "korean": "나 진심 힘들어.",
+        "translation": "我真的很累。",
+        "tone_note": "强调自己的真实感受。",
+        "id": "ex_0086",
+        "expression_id": "expr_0029"
+      },
+      {
+        "korean": "진심 이건 아니지.",
+        "translation": "说真的，这不太对吧。",
+        "tone_note": "带明确不认同。",
+        "id": "ex_0087",
+        "expression_id": "expr_0029"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "진짜",
+        "relation_type": "similar_meaning",
+        "difference": "진짜更通用，진심更像‘说真的/真心觉得’。",
+        "target_expression_id": "expr_0004"
+      },
+      {
+        "target_expression": "완전",
+        "relation_type": "contrast",
+        "difference": "완전强调程度，진심强调说话人的真实感受。",
+        "target_expression_id": "expr_0005"
+      }
+    ],
+    "scenario": {
+      "title": "表达强烈真实感受",
+      "context": "和朋友聊天时强调自己不是夸张，是真的这么觉得。"
+    },
+    "simple_example": {
+      "korean": "진심 대박이야.",
+      "translation": "真的绝了。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0030",
+        "prompt": "把句子改成更像朋友聊天里的强烈表达。",
+        "formal_sentence": "저는 정말 힘듭니다.",
+        "natural_answer": "나 진심 힘들어.",
+        "target_expression": "진심",
+        "scenario_tag": "strong_opinion",
+        "expression_id": "expr_0029"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0030",
+    "expression": "미쳤다",
+    "display_expression": "미쳤다",
+    "meaning": "疯了 / 太绝了 / 太夸张了",
+    "meaning_cluster": "强烈惊叹 / 夸张评价",
+    "tone_tags": [
+      "surprise",
+      "excitement",
+      "slang"
+    ],
+    "scenario_tags": [
+      "unexpected_news",
+      "praise",
+      "reaction"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "slang_expression",
+    "usage_examples": [
+      {
+        "korean": "와 이 노래 미쳤다.",
+        "translation": "哇，这首歌太绝了。",
+        "tone_note": "正向强烈惊叹。",
+        "id": "ex_0088",
+        "expression_id": "expr_0030"
+      },
+      {
+        "korean": "가격 미쳤네.",
+        "translation": "这价格疯了吧。",
+        "tone_note": "可以表示震惊或不满。",
+        "id": "ex_0089",
+        "expression_id": "expr_0030"
+      },
+      {
+        "korean": "너 진짜 미쳤어?",
+        "translation": "你真的疯了吗？",
+        "tone_note": "语气更强，可能带责备。",
+        "id": "ex_0090",
+        "expression_id": "expr_0030"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "대박",
+        "relation_type": "stronger_than",
+        "difference": "미쳤다比대박更夸张，情绪强度更高。",
+        "target_expression_id": "expr_0006"
+      },
+      {
+        "target_expression": "장난 아니야",
+        "relation_type": "similar_meaning",
+        "difference": "两者都表示程度很强，미쳤다更像年轻人口语。",
+        "target_expression_id": "expr_0009"
+      }
+    ],
+    "scenario": {
+      "title": "看到非常夸张或惊艳的东西",
+      "context": "朋友给你看一段表演或一个价格，你非常震惊。"
+    },
+    "simple_example": {
+      "korean": "와 미쳤다.",
+      "translation": "哇，太绝了。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0031",
+        "prompt": "把句子改成更像年轻人看到惊艳表演时的反应。",
+        "formal_sentence": "이 노래는 매우 훌륭합니다.",
+        "natural_answer": "와 이 노래 미쳤다.",
+        "target_expression": "미쳤다",
+        "scenario_tag": "praise",
+        "expression_id": "expr_0030"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0031",
+    "expression": "실화야?",
+    "display_expression": "실화야?",
+    "meaning": "真的假的？这是真事吗？",
+    "meaning_cluster": "震惊 / 不敢相信",
+    "tone_tags": [
+      "disbelief",
+      "surprise",
+      "casual"
+    ],
+    "scenario_tags": [
+      "unexpected_news",
+      "gossip",
+      "reaction"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "slang_question",
+    "usage_examples": [
+      {
+        "korean": "너희 둘이 사귄다고? 실화야?",
+        "translation": "你们两个在交往？真的假的？",
+        "tone_note": "对八卦消息震惊。",
+        "id": "ex_0091",
+        "expression_id": "expr_0031"
+      },
+      {
+        "korean": "시험 내일이라고? 실화야?",
+        "translation": "考试是明天？真的假的？",
+        "tone_note": "带崩溃感的不敢相信。",
+        "id": "ex_0092",
+        "expression_id": "expr_0031"
+      },
+      {
+        "korean": "이 가격 실화야?",
+        "translation": "这个价格真的假的？",
+        "tone_note": "常用于吐槽价格离谱。",
+        "id": "ex_0093",
+        "expression_id": "expr_0031"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "헐",
+        "relation_type": "used_together",
+        "difference": "헐是瞬间反应，실화야?更明确追问真实性。",
+        "target_expression_id": "expr_0007"
+      },
+      {
+        "target_expression": "설마",
+        "relation_type": "similar_meaning",
+        "difference": "설마更像‘不会吧’，실화야?更像‘这是真的？’。",
+        "target_expression_id": "expr_0014"
+      }
+    ],
+    "scenario": {
+      "title": "听到意外消息",
+      "context": "朋友告诉你一个很离谱或很突然的消息。"
+    },
+    "simple_example": {
+      "korean": "이게 실화야?",
+      "translation": "这是真的吗？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0032",
+        "prompt": "把句子改成朋友间听到八卦后的自然反应。",
+        "formal_sentence": "그것이 사실입니까?",
+        "natural_answer": "그거 실화야?",
+        "target_expression": "실화야?",
+        "scenario_tag": "unexpected_news",
+        "expression_id": "expr_0031"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0032",
+    "expression": "에이",
+    "display_expression": "에이",
+    "meaning": "哎呀 / 算了吧 / 不会吧",
+    "meaning_cluster": "轻微否定 / 不相信 / 缓和语气",
+    "tone_tags": [
+      "dismissal",
+      "soft_disbelief",
+      "casual"
+    ],
+    "scenario_tags": [
+      "casual_chat",
+      "teasing",
+      "disbelief"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "interjection",
+    "usage_examples": [
+      {
+        "korean": "에이, 그건 아니지.",
+        "translation": "哎呀，那不是吧。",
+        "tone_note": "轻轻否定对方说法。",
+        "id": "ex_0094",
+        "expression_id": "expr_0032"
+      },
+      {
+        "korean": "에이, 설마.",
+        "translation": "哎呀，不会吧。",
+        "tone_note": "半开玩笑地不相信。",
+        "id": "ex_0095",
+        "expression_id": "expr_0032"
+      },
+      {
+        "korean": "에이, 괜찮아.",
+        "translation": "哎呀，没关系。",
+        "tone_note": "缓和对方的担心。",
+        "id": "ex_0096",
+        "expression_id": "expr_0032"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "설마",
+        "relation_type": "used_together",
+        "difference": "에이可以放在설마前，让不相信的语气更轻松。",
+        "target_expression_id": "expr_0014"
+      },
+      {
+        "target_expression": "됐다",
+        "relation_type": "contrast",
+        "difference": "됐다常表示结束话题或算了，에이更像语气词。",
+        "target_expression_id": "expr_0033"
+      }
+    ],
+    "scenario": {
+      "title": "轻轻否定朋友的话",
+      "context": "朋友说了一个你不太相信的事情，但你不想显得太严肃。"
+    },
+    "simple_example": {
+      "korean": "에이, 아니야.",
+      "translation": "哎呀，不是啦。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0033",
+        "prompt": "把句子改成朋友间轻松否定的口语。",
+        "formal_sentence": "그것은 사실이 아닌 것 같습니다.",
+        "natural_answer": "에이, 그건 아니지.",
+        "target_expression": "에이",
+        "scenario_tag": "disbelief",
+        "expression_id": "expr_0032"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0033",
+    "expression": "됐다",
+    "display_expression": "됐다",
+    "meaning": "算了 / 可以了 / 不用了",
+    "meaning_cluster": "结束话题 / 拒绝 / 放弃",
+    "tone_tags": [
+      "dismissive",
+      "resigned",
+      "casual"
+    ],
+    "scenario_tags": [
+      "refusing_help",
+      "ending_topic",
+      "frustration"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "fixed_expression",
+    "usage_examples": [
+      {
+        "korean": "됐어, 내가 할게.",
+        "translation": "算了，我来做。",
+        "tone_note": "带一点无奈，表示不想再麻烦对方。",
+        "id": "ex_0097",
+        "expression_id": "expr_0033"
+      },
+      {
+        "korean": "됐다, 말 안 할래.",
+        "translation": "算了，我不说了。",
+        "tone_note": "结束话题，可能有点不开心。",
+        "id": "ex_0098",
+        "expression_id": "expr_0033"
+      },
+      {
+        "korean": "아 됐어, 괜찮아.",
+        "translation": "啊不用了，没事。",
+        "tone_note": "拒绝帮助时更自然。",
+        "id": "ex_0099",
+        "expression_id": "expr_0033"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "괜찮아",
+        "relation_type": "used_together",
+        "difference": "괜찮아单独更温和，됐다带有‘不用了/算了’的结束感。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "어쩌라고",
+        "relation_type": "softer_than",
+        "difference": "됐다是不想继续，어쩌라고更挑衅。",
+        "target_expression_id": "expr_0016"
+      }
+    ],
+    "scenario": {
+      "title": "无奈地拒绝帮助",
+      "context": "对方一直帮不上忙，你决定自己来。"
+    },
+    "simple_example": {
+      "korean": "됐어, 내가 할게.",
+      "translation": "算了，我来吧。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0034",
+        "prompt": "把句子改成带一点无奈的自然口语。",
+        "formal_sentence": "괜찮습니다. 제가 하겠습니다.",
+        "natural_answer": "됐어, 내가 할게.",
+        "target_expression": "됐다",
+        "scenario_tag": "refusing_help",
+        "expression_id": "expr_0033"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0034",
+    "expression": "왜 굳이",
+    "display_expression": "왜 굳이",
+    "meaning": "为什么非要这样？有必要吗？",
+    "meaning_cluster": "质疑必要性 / 不理解选择",
+    "tone_tags": [
+      "questioning",
+      "mild_complaint",
+      "confusion"
+    ],
+    "scenario_tags": [
+      "questioning_choice",
+      "casual_chat",
+      "complaint"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship",
+      "coworkers"
+    ],
+    "grammar_type": "question_phrase",
+    "usage_examples": [
+      {
+        "korean": "왜 굳이 지금 가야 돼?",
+        "translation": "为什么非要现在去？",
+        "tone_note": "质疑时间选择。",
+        "id": "ex_0100",
+        "expression_id": "expr_0034"
+      },
+      {
+        "korean": "그걸 왜 굳이 말해?",
+        "translation": "那个有必要说出来吗？",
+        "tone_note": "觉得对方没必要提。",
+        "id": "ex_0101",
+        "expression_id": "expr_0034"
+      },
+      {
+        "korean": "왜 굳이 이렇게까지 해?",
+        "translation": "为什么非要做到这种程度？",
+        "tone_note": "觉得对方做得太过。",
+        "id": "ex_0102",
+        "expression_id": "expr_0034"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "너무하다",
+        "relation_type": "related_scenario",
+        "difference": "왜 굳이质疑必要性，너무하다直接表达过分。",
+        "target_expression_id": "expr_0010"
+      },
+      {
+        "target_expression": "뭐야 진짜",
+        "relation_type": "softer_than",
+        "difference": "왜 굳이更像理性质疑，뭐야 진짜更情绪化。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "不理解朋友的选择",
+      "context": "朋友做了一个你觉得没必要的决定。"
+    },
+    "simple_example": {
+      "korean": "왜 굳이 그래?",
+      "translation": "为什么非要那样？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0035",
+        "prompt": "把句子改成自然地质疑朋友选择的口语。",
+        "formal_sentence": "왜 꼭 지금 가야 합니까?",
+        "natural_answer": "왜 굳이 지금 가야 돼?",
+        "target_expression": "왜 굳이",
+        "scenario_tag": "questioning_choice",
+        "expression_id": "expr_0034"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0035",
+    "expression": "어쩌면",
+    "display_expression": "어쩌면",
+    "meaning": "也许 / 说不定",
+    "meaning_cluster": "不确定推测",
+    "tone_tags": [
+      "uncertainty",
+      "soft_guess",
+      "neutral"
+    ],
+    "scenario_tags": [
+      "guessing",
+      "soft_opinion",
+      "reflection"
+    ],
+    "difficulty": "intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "coworkers",
+      "classmates"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "어쩌면 걔도 몰랐을 수도 있어.",
+        "translation": "说不定他也不知道。",
+        "tone_note": "委婉提出可能性。",
+        "id": "ex_0103",
+        "expression_id": "expr_0035"
+      },
+      {
+        "korean": "어쩌면 우리가 너무 예민한 걸지도 몰라.",
+        "translation": "也许是我们太敏感了。",
+        "tone_note": "反思时自然使用。",
+        "id": "ex_0104",
+        "expression_id": "expr_0035"
+      },
+      {
+        "korean": "어쩌면 그게 맞는 선택일 수도 있지.",
+        "translation": "也许那才是对的选择。",
+        "tone_note": "语气比断言更柔和。",
+        "id": "ex_0105",
+        "expression_id": "expr_0035"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그럴 리가",
+        "relation_type": "contrast",
+        "difference": "어쩌면接受可能性，그럴 리가否定可能性。",
+        "target_expression_id": "expr_0015"
+      },
+      {
+        "target_expression": "설마",
+        "relation_type": "contrast",
+        "difference": "설마表达不敢相信，어쩌면更冷静地推测。",
+        "target_expression_id": "expr_0014"
+      }
+    ],
+    "scenario": {
+      "title": "委婉提出猜测",
+      "context": "你不确定事实，但想提出一种可能性。"
+    },
+    "simple_example": {
+      "korean": "어쩌면 맞을 수도 있어.",
+      "translation": "也许是对的。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0036",
+        "prompt": "把句子改成更柔和的推测口语。",
+        "formal_sentence": "그 사람도 몰랐을 가능성이 있습니다.",
+        "natural_answer": "어쩌면 걔도 몰랐을 수도 있어.",
+        "target_expression": "어쩌면",
+        "scenario_tag": "guessing",
+        "expression_id": "expr_0035"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0036",
+    "expression": "그러게",
+    "display_expression": "그러게",
+    "meaning": "是啊 / 还真是",
+    "meaning_cluster": "附和 / 轻微感叹",
+    "tone_tags": [
+      "agreement",
+      "realization",
+      "casual"
+    ],
+    "scenario_tags": [
+      "agreeing",
+      "casual_chat",
+      "realization"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "classmates",
+      "coworkers"
+    ],
+    "grammar_type": "response_expression",
+    "usage_examples": [
+      {
+        "korean": "그러게, 벌써 시간이 이렇게 됐네.",
+        "translation": "是啊，时间都已经这么晚了。",
+        "tone_note": "意识到某件事后附和。",
+        "id": "ex_0106",
+        "expression_id": "expr_0036"
+      },
+      {
+        "korean": "그러게. 왜 아무도 몰랐지?",
+        "translation": "是啊，为什么没人知道呢？",
+        "tone_note": "附和并继续疑问。",
+        "id": "ex_0107",
+        "expression_id": "expr_0036"
+      },
+      {
+        "korean": "그러게 말이야.",
+        "translation": "就是说啊。",
+        "tone_note": "非常自然的强附和。",
+        "id": "ex_0108",
+        "expression_id": "expr_0036"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "맞아",
+        "relation_type": "similar_meaning",
+        "difference": "맞아是直接说对，그러게更像‘你这么一说确实是’。",
+        "target_expression_id": "expr_0012"
+      },
+      {
+        "target_expression": "그니까",
+        "relation_type": "softer_than",
+        "difference": "그러게更轻，그니까更强调自己的判断。",
+        "target_expression_id": "expr_0011"
+      }
+    ],
+    "scenario": {
+      "title": "听到朋友说法后突然认同",
+      "context": "朋友指出一个事实，你觉得确实如此。"
+    },
+    "simple_example": {
+      "korean": "그러게, 맞네.",
+      "translation": "是啊，还真是。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0037",
+        "prompt": "把句子改成朋友间自然附和。",
+        "formal_sentence": "당신의 말이 맞는 것 같습니다.",
+        "natural_answer": "그러게, 맞네.",
+        "target_expression": "그러게",
+        "scenario_tag": "agreeing",
+        "expression_id": "expr_0036"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0037",
+    "expression": "아무튼",
+    "display_expression": "아무튼",
+    "meaning": "总之 / 反正",
+    "meaning_cluster": "总结 / 转回重点",
+    "tone_tags": [
+      "summary",
+      "topic_shift",
+      "neutral"
+    ],
+    "scenario_tags": [
+      "ending_topic",
+      "explaining",
+      "casual_chat"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "coworkers",
+      "classmates"
+    ],
+    "grammar_type": "discourse_marker",
+    "usage_examples": [
+      {
+        "korean": "아무튼 오늘은 안 돼.",
+        "translation": "总之今天不行。",
+        "tone_note": "结束前面的解释，回到结论。",
+        "id": "ex_0109",
+        "expression_id": "expr_0037"
+      },
+      {
+        "korean": "아무튼 잘 해결돼서 다행이야.",
+        "translation": "总之解决了就好。",
+        "tone_note": "总结事情时自然。",
+        "id": "ex_0110",
+        "expression_id": "expr_0037"
+      },
+      {
+        "korean": "아무튼 내 말은 그게 아니었어.",
+        "translation": "反正我不是那个意思。",
+        "tone_note": "纠正误解时使用。",
+        "id": "ex_0111",
+        "expression_id": "expr_0037"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그러니까",
+        "relation_type": "contrast",
+        "difference": "그러니까引出因果结论，아무튼更像结束话题并总结。",
+        "target_expression_id": "expr_0027"
+      },
+      {
+        "target_expression": "됐어",
+        "relation_type": "related_scenario",
+        "difference": "아무튼可以总结，됐어更像直接结束或拒绝。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "把话题拉回重点",
+      "context": "聊天跑偏后，你想总结并回到结论。"
+    },
+    "simple_example": {
+      "korean": "아무튼 괜찮아.",
+      "translation": "总之没事。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0038",
+        "prompt": "把句子改成自然结束解释的口语。",
+        "formal_sentence": "결론적으로 오늘은 어렵습니다.",
+        "natural_answer": "아무튼 오늘은 안 돼.",
+        "target_expression": "아무튼",
+        "scenario_tag": "ending_topic",
+        "expression_id": "expr_0037"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0038",
+    "expression": "이렇게까지",
+    "display_expression": "이렇게까지",
+    "meaning": "到这种程度 / 有必要这样吗",
+    "meaning_cluster": "程度过高 / 质疑过度",
+    "tone_tags": [
+      "complaint",
+      "surprise",
+      "questioning"
+    ],
+    "scenario_tags": [
+      "overreaction",
+      "complaint",
+      "questioning_choice"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "coworkers",
+      "close_relationship"
+    ],
+    "grammar_type": "degree_expression",
+    "usage_examples": [
+      {
+        "korean": "이렇게까지 해야 돼?",
+        "translation": "有必要做到这种程度吗？",
+        "tone_note": "觉得对方做得太过。",
+        "id": "ex_0112",
+        "expression_id": "expr_0038"
+      },
+      {
+        "korean": "너 이렇게까지 화낼 일이야?",
+        "translation": "你有必要气成这样吗？",
+        "tone_note": "质疑对方反应过度。",
+        "id": "ex_0113",
+        "expression_id": "expr_0038"
+      },
+      {
+        "korean": "이렇게까지 챙겨줘서 고마워.",
+        "translation": "你这么照顾我，谢谢。",
+        "tone_note": "也可用于正向感激。",
+        "id": "ex_0114",
+        "expression_id": "expr_0038"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "왜 굳이",
+        "relation_type": "related_scenario",
+        "difference": "왜 굳이质疑必要性，这个表达更强调程度太高。",
+        "target_expression_id": "expr_0034"
+      },
+      {
+        "target_expression": "너무하다",
+        "relation_type": "similar_meaning",
+        "difference": "너무하다直接评价过分，这个表达更像问‘有必要到这程度吗’。",
+        "target_expression_id": "expr_0010"
+      }
+    ],
+    "scenario": {
+      "title": "觉得别人反应过度",
+      "context": "朋友因为小事反应很大，你觉得没必要。"
+    },
+    "simple_example": {
+      "korean": "이렇게까지 해야 돼?",
+      "translation": "有必要这样吗？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0039",
+        "prompt": "把句子改成质疑对方反应过度的自然口语。",
+        "formal_sentence": "이 정도로 화를 낼 필요가 있습니까?",
+        "natural_answer": "이렇게까지 화낼 일이야?",
+        "target_expression": "이렇게까지",
+        "scenario_tag": "overreaction",
+        "expression_id": "expr_0038"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0039",
+    "expression": "그게 뭔데",
+    "display_expression": "그게 뭔데",
+    "meaning": "那是什么啊？那有什么了不起？",
+    "meaning_cluster": "追问 / 不屑 / 好奇",
+    "tone_tags": [
+      "curiosity",
+      "dismissive",
+      "casual"
+    ],
+    "scenario_tags": [
+      "asking",
+      "teasing",
+      "casual_chat"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "question_phrase",
+    "usage_examples": [
+      {
+        "korean": "그게 뭔데 그렇게 좋아해?",
+        "translation": "那是什么啊，你怎么那么喜欢？",
+        "tone_note": "好奇地追问。",
+        "id": "ex_0115",
+        "expression_id": "expr_0039"
+      },
+      {
+        "korean": "그게 뭔데 이렇게 난리야?",
+        "translation": "那到底是什么啊，怎么这么大阵仗？",
+        "tone_note": "带一点不理解或吐槽。",
+        "id": "ex_0116",
+        "expression_id": "expr_0039"
+      },
+      {
+        "korean": "그게 뭔데 나한테 숨겨?",
+        "translation": "那是什么啊，还瞒着我？",
+        "tone_note": "亲近关系里的追问。",
+        "id": "ex_0117",
+        "expression_id": "expr_0039"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "뭐야 진짜",
+        "relation_type": "related_scenario",
+        "difference": "뭐야 진짜是情绪反应，그게 뭔데是追问对象。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "왜 굳이",
+        "relation_type": "contrast",
+        "difference": "왜 굳이问必要性，그게 뭔데问内容或价值。",
+        "target_expression_id": "expr_0034"
+      }
+    ],
+    "scenario": {
+      "title": "朋友神秘兮兮地提到某件事",
+      "context": "你不知道对方说的是什么，想自然追问。"
+    },
+    "simple_example": {
+      "korean": "그게 뭔데?",
+      "translation": "那是什么啊？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0040",
+        "prompt": "把句子改成朋友间自然追问。",
+        "formal_sentence": "그것이 무엇인지 설명해 주시겠습니까?",
+        "natural_answer": "그게 뭔데?",
+        "target_expression": "그게 뭔데",
+        "scenario_tag": "asking",
+        "expression_id": "expr_0039"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0040",
+    "expression": "뭔데",
+    "display_expression": "뭔데",
+    "meaning": "什么啊 / 凭什么 / 怎么回事",
+    "meaning_cluster": "追问 / 不满 / 反应",
+    "tone_tags": [
+      "questioning",
+      "annoyance",
+      "casual"
+    ],
+    "scenario_tags": [
+      "teasing",
+      "complaint",
+      "reaction"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "question_ending",
+    "usage_examples": [
+      {
+        "korean": "뭔데 그렇게 웃어?",
+        "translation": "什么啊，你笑什么？",
+        "tone_note": "朋友间轻松追问。",
+        "id": "ex_0118",
+        "expression_id": "expr_0040"
+      },
+      {
+        "korean": "너 뭔데 나한테 그래?",
+        "translation": "你凭什么这样对我？",
+        "tone_note": "语气强，带不满。",
+        "id": "ex_0119",
+        "expression_id": "expr_0040"
+      },
+      {
+        "korean": "뭔데 이렇게 비싸?",
+        "translation": "什么啊，怎么这么贵？",
+        "tone_note": "吐槽价格。",
+        "id": "ex_0120",
+        "expression_id": "expr_0040"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그게 뭔데",
+        "relation_type": "similar_meaning",
+        "difference": "뭔데更短、更情绪化；그게 뭔데更完整。",
+        "target_expression_id": "expr_0039"
+      },
+      {
+        "target_expression": "어쩌라고",
+        "relation_type": "softer_than",
+        "difference": "뭔데可以只是追问，어쩌라고更挑衅。",
+        "target_expression_id": "expr_0016"
+      }
+    ],
+    "scenario": {
+      "title": "朋友突然笑你",
+      "context": "你不知道对方在笑什么，半开玩笑地追问。"
+    },
+    "simple_example": {
+      "korean": "뭔데?",
+      "translation": "什么啊？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0041",
+        "prompt": "把句子改成朋友间自然追问。",
+        "formal_sentence": "왜 그렇게 웃고 있습니까?",
+        "natural_answer": "뭔데 그렇게 웃어?",
+        "target_expression": "뭔데",
+        "scenario_tag": "teasing",
+        "expression_id": "expr_0040"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0041",
+    "expression": "내가 알게 뭐야",
+    "display_expression": "내가 알게 뭐야",
+    "meaning": "关我什么事 / 我怎么知道",
+    "meaning_cluster": "不关心 / 推开责任",
+    "tone_tags": [
+      "dismissive",
+      "annoyance",
+      "casual"
+    ],
+    "scenario_tags": [
+      "refusing_responsibility",
+      "complaint",
+      "casual_chat"
+    ],
+    "difficulty": "advanced_intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "fixed_expression",
+    "usage_examples": [
+      {
+        "korean": "그걸 내가 알게 뭐야.",
+        "translation": "那个我怎么知道。",
+        "tone_note": "语气不耐烦。",
+        "id": "ex_0121",
+        "expression_id": "expr_0041"
+      },
+      {
+        "korean": "네가 늦은 걸 내가 알게 뭐야.",
+        "translation": "你迟到关我什么事。",
+        "tone_note": "推开责任，语气较冲。",
+        "id": "ex_0122",
+        "expression_id": "expr_0041"
+      },
+      {
+        "korean": "아 몰라, 내가 알게 뭐야.",
+        "translation": "啊我不知道，关我什么事。",
+        "tone_note": "明显不想管。",
+        "id": "ex_0123",
+        "expression_id": "expr_0041"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "어쩌라고",
+        "relation_type": "similar_tone",
+        "difference": "两者都比较冲，어쩌라고更像‘那你要我怎样’，내가 알게 뭐야更像‘关我什么事’。",
+        "target_expression_id": "expr_0016"
+      },
+      {
+        "target_expression": "됐어",
+        "relation_type": "stronger_than",
+        "difference": "됐어只是结束话题，这个表达更冷漠或不耐烦。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "不想承担别人的问题",
+      "context": "朋友把自己的问题推给你，你觉得这不是你的责任。"
+    },
+    "simple_example": {
+      "korean": "그걸 내가 알게 뭐야.",
+      "translation": "那个我怎么知道。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0042",
+        "prompt": "把句子改成比较不耐烦的口语。",
+        "formal_sentence": "그것은 저와 관련이 없습니다.",
+        "natural_answer": "그걸 내가 알게 뭐야.",
+        "target_expression": "내가 알게 뭐야",
+        "scenario_tag": "refusing_responsibility",
+        "expression_id": "expr_0041"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0042",
+    "expression": "몰라",
+    "display_expression": "몰라",
+    "meaning": "不知道 / 不管了",
+    "meaning_cluster": "不知道 / 放弃解释 / 不想管",
+    "tone_tags": [
+      "uncertainty",
+      "dismissive",
+      "casual"
+    ],
+    "scenario_tags": [
+      "casual_chat",
+      "ending_topic",
+      "frustration"
+    ],
+    "difficulty": "beginner",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "verb_expression",
+    "usage_examples": [
+      {
+        "korean": "몰라, 나도 헷갈려.",
+        "translation": "不知道，我也搞混了。",
+        "tone_note": "真的不知道。",
+        "id": "ex_0124",
+        "expression_id": "expr_0042"
+      },
+      {
+        "korean": "아 몰라, 네가 알아서 해.",
+        "translation": "啊不知道了，你自己看着办。",
+        "tone_note": "带放弃或不想管的情绪。",
+        "id": "ex_0125",
+        "expression_id": "expr_0042"
+      },
+      {
+        "korean": "몰라 몰라, 나한테 묻지 마.",
+        "translation": "不知道不知道，别问我。",
+        "tone_note": "撒娇或不耐烦都可能。",
+        "id": "ex_0126",
+        "expression_id": "expr_0042"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "됐어",
+        "relation_type": "related_scenario",
+        "difference": "몰라是不知道或不想管，됐어是结束或拒绝。",
+        "target_expression_id": null
+      },
+      {
+        "target_expression": "내가 알게 뭐야",
+        "relation_type": "softer_than",
+        "difference": "몰라更普通，내가 알게 뭐야更冲。",
+        "target_expression_id": "expr_0041"
+      }
+    ],
+    "scenario": {
+      "title": "不想继续解释",
+      "context": "朋友一直问你，你已经不想继续回答。"
+    },
+    "simple_example": {
+      "korean": "아 몰라.",
+      "translation": "啊不知道了。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0043",
+        "prompt": "把句子改成朋友间不想继续解释的口语。",
+        "formal_sentence": "저도 잘 모르겠습니다.",
+        "natural_answer": "몰라, 나도 잘 몰라.",
+        "target_expression": "몰라",
+        "scenario_tag": "ending_topic",
+        "expression_id": "expr_0042"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0043",
+    "expression": "좀",
+    "display_expression": "좀",
+    "meaning": "稍微 / 拜托 / 有点",
+    "meaning_cluster": "缓和请求 / 表达不满 / 程度修饰",
+    "tone_tags": [
+      "softening",
+      "complaint",
+      "request"
+    ],
+    "scenario_tags": [
+      "request",
+      "complaint",
+      "casual_chat"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "classmates",
+      "coworkers"
+    ],
+    "grammar_type": "adverb_particle",
+    "usage_examples": [
+      {
+        "korean": "조용히 좀 해.",
+        "translation": "你安静一点。",
+        "tone_note": "比直接命令稍自然，但仍有不满。",
+        "id": "ex_0127",
+        "expression_id": "expr_0043"
+      },
+      {
+        "korean": "나 좀 도와줘.",
+        "translation": "帮我一下嘛。",
+        "tone_note": "让请求听起来更自然。",
+        "id": "ex_0128",
+        "expression_id": "expr_0043"
+      },
+      {
+        "korean": "이거 좀 이상한데?",
+        "translation": "这个有点奇怪啊。",
+        "tone_note": "缓和评价。",
+        "id": "ex_0129",
+        "expression_id": "expr_0043"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "-는데",
+        "relation_type": "used_together",
+        "difference": "좀和-는데都能让语气变柔和，常一起出现。",
+        "target_expression_id": "expr_0003"
+      },
+      {
+        "target_expression": "제발",
+        "relation_type": "softer_than",
+        "difference": "좀是轻量请求，제발更强烈像‘拜托’。",
+        "target_expression_id": "expr_0044"
+      }
+    ],
+    "scenario": {
+      "title": "请求朋友帮忙",
+      "context": "你想让朋友帮你，但不想说得太硬。"
+    },
+    "simple_example": {
+      "korean": "나 좀 도와줘.",
+      "translation": "帮我一下嘛。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0044",
+        "prompt": "把句子改成更自然的请求口语。",
+        "formal_sentence": "저를 도와주십시오.",
+        "natural_answer": "나 좀 도와줘.",
+        "target_expression": "좀",
+        "scenario_tag": "request",
+        "expression_id": "expr_0043"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0044",
+    "expression": "제발",
+    "display_expression": "제발",
+    "meaning": "拜托 / 求你了",
+    "meaning_cluster": "强烈请求 / 崩溃式请求",
+    "tone_tags": [
+      "pleading",
+      "frustration",
+      "strong_request"
+    ],
+    "scenario_tags": [
+      "request",
+      "frustration",
+      "urgent"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "family",
+      "coworkers"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "제발 그만해.",
+        "translation": "拜托别这样了。",
+        "tone_note": "强烈希望对方停止。",
+        "id": "ex_0130",
+        "expression_id": "expr_0044"
+      },
+      {
+        "korean": "제발 한 번만 도와줘.",
+        "translation": "拜托就帮我一次。",
+        "tone_note": "请求感很强。",
+        "id": "ex_0131",
+        "expression_id": "expr_0044"
+      },
+      {
+        "korean": "제발 늦지 마.",
+        "translation": "拜托别迟到。",
+        "tone_note": "带担心或无奈。",
+        "id": "ex_0132",
+        "expression_id": "expr_0044"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "좀",
+        "relation_type": "stronger_than",
+        "difference": "제발比좀强很多，更像恳求。",
+        "target_expression_id": "expr_0043"
+      },
+      {
+        "target_expression": "미치겠다",
+        "relation_type": "related_tone",
+        "difference": "两者都可能出现在崩溃情绪里，제발用于请求，미치겠다用于表达崩溃。",
+        "target_expression_id": "expr_0008"
+      }
+    ],
+    "scenario": {
+      "title": "恳求朋友不要再迟到",
+      "context": "朋友经常迟到，你这次很认真地请求。"
+    },
+    "simple_example": {
+      "korean": "제발 좀.",
+      "translation": "拜托了。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0045",
+        "prompt": "把句子改成带强烈请求感的口语。",
+        "formal_sentence": "늦지 말아 주시기 바랍니다.",
+        "natural_answer": "제발 늦지 마.",
+        "target_expression": "제발",
+        "scenario_tag": "request",
+        "expression_id": "expr_0044"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0045",
+    "expression": "괜히",
+    "display_expression": "괜히",
+    "meaning": "白白地 / 没事找事地 / 无缘无故",
+    "meaning_cluster": "无谓行动 / 后悔 / 多余",
+    "tone_tags": [
+      "regret",
+      "complaint",
+      "casual"
+    ],
+    "scenario_tags": [
+      "regret",
+      "complaint",
+      "reflection"
+    ],
+    "difficulty": "intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "classmates",
+      "coworkers"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "괜히 말했나 봐.",
+        "translation": "我好像不该说的。",
+        "tone_note": "说完后有点后悔。",
+        "id": "ex_0133",
+        "expression_id": "expr_0045"
+      },
+      {
+        "korean": "괜히 왔어.",
+        "translation": "早知道不来了。",
+        "tone_note": "觉得来了没有意义。",
+        "id": "ex_0134",
+        "expression_id": "expr_0045"
+      },
+      {
+        "korean": "괜히 신경 쓰이네.",
+        "translation": "莫名有点在意。",
+        "tone_note": "无缘无故被影响。",
+        "id": "ex_0135",
+        "expression_id": "expr_0045"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "대충",
+        "relation_type": "contrast",
+        "difference": "괜히强调没有必要或白白地，대충强调随便不认真。",
+        "target_expression_id": "expr_0020"
+      },
+      {
+        "target_expression": "왜 굳이",
+        "relation_type": "related_scenario",
+        "difference": "왜 굳이是在质疑别人，괜히常用于反思自己。",
+        "target_expression_id": "expr_0034"
+      }
+    ],
+    "scenario": {
+      "title": "说完话后后悔",
+      "context": "你说了一句话后发现气氛变尴尬。"
+    },
+    "simple_example": {
+      "korean": "괜히 말했어.",
+      "translation": "我不该说的。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0046",
+        "prompt": "把句子改成自然表达后悔的口语。",
+        "formal_sentence": "제가 말하지 않는 것이 더 좋았을 것 같습니다.",
+        "natural_answer": "괜히 말했나 봐.",
+        "target_expression": "괜히",
+        "scenario_tag": "regret",
+        "expression_id": "expr_0045"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0046",
+    "expression": "어차피",
+    "display_expression": "어차피",
+    "meaning": "反正 / 无论如何",
+    "meaning_cluster": "结果不会变 / 放弃争辩",
+    "tone_tags": [
+      "resigned",
+      "practical",
+      "casual"
+    ],
+    "scenario_tags": [
+      "decision",
+      "resignation",
+      "casual_chat"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "coworkers",
+      "classmates"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "어차피 늦었어.",
+        "translation": "反正已经晚了。",
+        "tone_note": "接受结果，不再纠结。",
+        "id": "ex_0136",
+        "expression_id": "expr_0046"
+      },
+      {
+        "korean": "어차피 해야 되는 거잖아.",
+        "translation": "反正这是必须做的啊。",
+        "tone_note": "带现实感的劝说。",
+        "id": "ex_0137",
+        "expression_id": "expr_0046"
+      },
+      {
+        "korean": "어차피 안 될 거야.",
+        "translation": "反正不会成功的。",
+        "tone_note": "可能有消极或放弃语气。",
+        "id": "ex_0138",
+        "expression_id": "expr_0046"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "아무튼",
+        "relation_type": "contrast",
+        "difference": "어차피强调结果不变，아무튼强调总结或转回重点。",
+        "target_expression_id": "expr_0037"
+      },
+      {
+        "target_expression": "됐어",
+        "relation_type": "related_scenario",
+        "difference": "어차피解释放弃原因，됐어直接说算了。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "接受已经无法改变的结果",
+      "context": "你和朋友已经迟到，不想再纠结。"
+    },
+    "simple_example": {
+      "korean": "어차피 늦었어.",
+      "translation": "反正已经晚了。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0047",
+        "prompt": "把句子改成接受现实的自然口语。",
+        "formal_sentence": "이미 늦었기 때문에 결과는 같습니다.",
+        "natural_answer": "어차피 늦었어.",
+        "target_expression": "어차피",
+        "scenario_tag": "resignation",
+        "expression_id": "expr_0046"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0047",
+    "expression": "그래도",
+    "display_expression": "그래도",
+    "meaning": "就算这样 / 但还是",
+    "meaning_cluster": "让步 / 保留意见 / 安慰",
+    "tone_tags": [
+      "concession",
+      "soft_disagreement",
+      "comfort"
+    ],
+    "scenario_tags": [
+      "comforting",
+      "disagreement",
+      "casual_chat"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "family",
+      "coworkers"
+    ],
+    "grammar_type": "conjunction_adverb",
+    "usage_examples": [
+      {
+        "korean": "그래도 잘했어.",
+        "translation": "但你还是做得很好。",
+        "tone_note": "安慰或鼓励别人。",
+        "id": "ex_0139",
+        "expression_id": "expr_0047"
+      },
+      {
+        "korean": "그래도 그건 좀 아니지.",
+        "translation": "但那个还是不太对吧。",
+        "tone_note": "委婉表达不同意。",
+        "id": "ex_0140",
+        "expression_id": "expr_0047"
+      },
+      {
+        "korean": "그래도 한번 해보자.",
+        "translation": "即使这样也试试看吧。",
+        "tone_note": "带鼓励。",
+        "id": "ex_0141",
+        "expression_id": "expr_0047"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "-는데",
+        "relation_type": "similar_function",
+        "difference": "两者都能表达转折，그래도更明确说‘即使如此’。",
+        "target_expression_id": "expr_0003"
+      },
+      {
+        "target_expression": "아니 근데",
+        "relation_type": "softer_than",
+        "difference": "그래도更柔和，아니 근데更像直接插入反驳。",
+        "target_expression_id": "expr_0013"
+      }
+    ],
+    "scenario": {
+      "title": "安慰朋友",
+      "context": "朋友觉得自己做得不好，你想鼓励他。"
+    },
+    "simple_example": {
+      "korean": "그래도 괜찮아.",
+      "translation": "但还是没关系。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0048",
+        "prompt": "把句子改成自然安慰朋友的口语。",
+        "formal_sentence": "결과는 아쉽지만 당신은 잘했습니다.",
+        "natural_answer": "그래도 잘했어.",
+        "target_expression": "그래도",
+        "scenario_tag": "comforting",
+        "expression_id": "expr_0047"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0048",
+    "expression": "막",
+    "display_expression": "막",
+    "meaning": "就那种 / 很夸张地 / 随便地",
+    "meaning_cluster": "口语描述 / 夸张铺陈",
+    "tone_tags": [
+      "casual",
+      "emphasis",
+      "storytelling"
+    ],
+    "scenario_tags": [
+      "storytelling",
+      "casual_chat",
+      "reaction"
+    ],
+    "difficulty": "intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "close_relationship"
+    ],
+    "grammar_type": "spoken_adverb",
+    "usage_examples": [
+      {
+        "korean": "걔가 막 화를 내는 거야.",
+        "translation": "他就突然很生气那样。",
+        "tone_note": "讲故事时让画面更生动。",
+        "id": "ex_0142",
+        "expression_id": "expr_0048"
+      },
+      {
+        "korean": "사람들이 막 뛰어다녔어.",
+        "translation": "人们就到处跑。",
+        "tone_note": "描述混乱场面。",
+        "id": "ex_0143",
+        "expression_id": "expr_0048"
+      },
+      {
+        "korean": "막 그렇게 심한 건 아니야.",
+        "translation": "也不是那么严重啦。",
+        "tone_note": "口语中弱化程度。",
+        "id": "ex_0144",
+        "expression_id": "expr_0048"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "그냥",
+        "relation_type": "contrast",
+        "difference": "그냥表示没有特别理由，막常用于生动描述动作或程度。",
+        "target_expression_id": "expr_0028"
+      },
+      {
+        "target_expression": "완전",
+        "relation_type": "similar_function",
+        "difference": "两者都能加强语气，막更口语化、更叙事。",
+        "target_expression_id": "expr_0005"
+      }
+    ],
+    "scenario": {
+      "title": "给朋友讲刚发生的事",
+      "context": "你在描述某人突然情绪激动的场面。"
+    },
+    "simple_example": {
+      "korean": "막 웃었어.",
+      "translation": "就一直笑。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0049",
+        "prompt": "把句子改成更像朋友讲故事的口语。",
+        "formal_sentence": "그 사람이 갑자기 화를 냈습니다.",
+        "natural_answer": "걔가 막 화를 내는 거야.",
+        "target_expression": "막",
+        "scenario_tag": "storytelling",
+        "expression_id": "expr_0048"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0049",
+    "expression": "더더욱",
+    "display_expression": "더더욱",
+    "meaning": "更加 / 就更…了",
+    "meaning_cluster": "程度加强 / 递进",
+    "tone_tags": [
+      "emphasis",
+      "comparison",
+      "neutral"
+    ],
+    "scenario_tags": [
+      "explaining",
+      "strong_opinion",
+      "comparison"
+    ],
+    "difficulty": "intermediate",
+    "formality": "neutral",
+    "relationship_context": [
+      "friends",
+      "coworkers",
+      "classmates"
+    ],
+    "grammar_type": "adverb",
+    "usage_examples": [
+      {
+        "korean": "그래서 더더욱 조심해야 돼.",
+        "translation": "所以就更要小心了。",
+        "tone_note": "强调结论更强。",
+        "id": "ex_0145",
+        "expression_id": "expr_0049"
+      },
+      {
+        "korean": "너라면 더더욱 할 수 있어.",
+        "translation": "如果是你，就更能做到。",
+        "tone_note": "鼓励对方。",
+        "id": "ex_0146",
+        "expression_id": "expr_0049"
+      },
+      {
+        "korean": "지금은 더더욱 안 돼.",
+        "translation": "现在就更不行了。",
+        "tone_note": "明确加强否定。",
+        "id": "ex_0147",
+        "expression_id": "expr_0049"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "완전",
+        "relation_type": "contrast",
+        "difference": "완전直接加强程度，더더욱有递进或比较感。",
+        "target_expression_id": "expr_0005"
+      },
+      {
+        "target_expression": "진짜",
+        "relation_type": "contrast",
+        "difference": "진짜偏情绪强调，더더욱偏逻辑上的更加强。",
+        "target_expression_id": "expr_0004"
+      }
+    ],
+    "scenario": {
+      "title": "强调现在更需要小心",
+      "context": "情况已经变复杂，你提醒朋友更要注意。"
+    },
+    "simple_example": {
+      "korean": "더더욱 조심해야 돼.",
+      "translation": "更要小心。"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0050",
+        "prompt": "把句子改成自然提醒朋友的口语。",
+        "formal_sentence": "그러므로 더욱 조심해야 합니다.",
+        "natural_answer": "그래서 더더욱 조심해야 돼.",
+        "target_expression": "더더욱",
+        "scenario_tag": "explaining",
+        "expression_id": "expr_0049"
+      }
+    ],
+    "version": "v1.0"
+  },
+  {
+    "id": "expr_0050",
+    "expression": "어떡해",
+    "display_expression": "어떡해",
+    "meaning": "怎么办 / 糟了",
+    "meaning_cluster": "担心 / 慌张 / 心疼",
+    "tone_tags": [
+      "worry",
+      "panic",
+      "sympathy"
+    ],
+    "scenario_tags": [
+      "bad_news",
+      "mistake",
+      "comforting"
+    ],
+    "difficulty": "beginner_intermediate",
+    "formality": "casual",
+    "relationship_context": [
+      "friends",
+      "family",
+      "close_relationship"
+    ],
+    "grammar_type": "reaction_expression",
+    "usage_examples": [
+      {
+        "korean": "어떡해, 나 지갑 놓고 왔어.",
+        "translation": "怎么办，我钱包忘带了。",
+        "tone_note": "自己出错后的慌张。",
+        "id": "ex_0148",
+        "expression_id": "expr_0050"
+      },
+      {
+        "korean": "어떡해, 많이 아파?",
+        "translation": "怎么办，很疼吗？",
+        "tone_note": "表达担心和心疼。",
+        "id": "ex_0149",
+        "expression_id": "expr_0050"
+      },
+      {
+        "korean": "아 어떡해, 진짜 망했다.",
+        "translation": "啊怎么办，真的完了。",
+        "tone_note": "崩溃感很强。",
+        "id": "ex_0150",
+        "expression_id": "expr_0050"
+      }
+    ],
+    "relations": [
+      {
+        "target_expression": "미치겠다",
+        "relation_type": "related_tone",
+        "difference": "어떡해更偏慌张或担心，미치겠다更偏崩溃吐槽。",
+        "target_expression_id": "expr_0008"
+      },
+      {
+        "target_expression": "망했다",
+        "relation_type": "used_together",
+        "difference": "어떡해常和망했다一起表达糟糕局面。",
+        "target_expression_id": null
+      }
+    ],
+    "scenario": {
+      "title": "发现自己忘带钱包",
+      "context": "你和朋友已经到店里，突然发现钱包不在身上。"
+    },
+    "simple_example": {
+      "korean": "어떡해?",
+      "translation": "怎么办？"
+    },
+    "rewrite_tasks": [
+      {
+        "task_id": "task_0051",
+        "prompt": "把句子改成自然表达慌张的口语。",
+        "formal_sentence": "저는 지갑을 두고 온 것 같습니다.",
+        "natural_answer": "어떡해, 나 지갑 놓고 왔어.",
+        "target_expression": "어떡해",
+        "scenario_tag": "mistake",
+        "expression_id": "expr_0050"
+      }
+    ],
+    "version": "v1.0"
+  }
+]

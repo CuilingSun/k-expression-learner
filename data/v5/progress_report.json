@@ -1,0 +1,20 @@
+{
+  "target_count": 360,
+  "candidate_count": 360,
+  "production_ready_count": 360,
+  "draft_count": 360,
+  "remaining_to_fill": 0,
+  "category_counts": {
+    "grammar_ending": 80,
+    "adverb_attitude": 50,
+    "emotional_reaction": 55,
+    "everyday_phrase": 85,
+    "discourse_connector": 45,
+    "situational_sentence": 45
+  },
+  "candidate_status_counts": {
+    "verified_v4": 50,
+    "seeded": 310
+  },
+  "generated_at": "2026-05-16T06:08:39.531Z"
+}
