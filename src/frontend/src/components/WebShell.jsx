@@ -10,8 +10,8 @@ const NAV_ITEMS = [
 ];
 
 export default function WebShell() {
-  const { stats } = useStats();
-  const { masteredCount = 0, learningCount = 0, totalExpressions = 50 } = stats;
+  const { stats, statsLoading } = useStats();
+  const { masteredCount = 0, learningCount = 0, totalExpressions = 0 } = stats || {};
   const pct = totalExpressions > 0 ? Math.round((masteredCount / totalExpressions) * 100) : 0;
   const unstartedCount = Math.max(0, totalExpressions - masteredCount - learningCount);
 
@@ -52,16 +52,24 @@ export default function WebShell() {
             진도 · progress
           </div>
           <div style={{ marginTop: 10, display: 'flex', alignItems: 'baseline', gap: 6 }}>
-            <span className="serif" style={{ fontSize: 26, color: 'var(--ink)' }}>
-              {masteredCount}
-            </span>
-            <span className="serif italic" style={{ fontSize: 14, color: 'var(--ink-mute)' }}>
-              / {totalExpressions}
-            </span>
-            <span style={{ flex: 1 }} />
-            <span className="mono" style={{ fontSize: 11, color: 'var(--accent)' }}>
-              {pct}%
-            </span>
+            {statsLoading ? (
+              <span className="mono" style={{ fontSize: 11, color: 'var(--ink-mute)' }}>
+                loading...
+              </span>
+            ) : (
+              <>
+                <span className="serif" style={{ fontSize: 26, color: 'var(--ink)' }}>
+                  {masteredCount}
+                </span>
+                <span className="serif italic" style={{ fontSize: 14, color: 'var(--ink-mute)' }}>
+                  / {totalExpressions}
+                </span>
+                <span style={{ flex: 1 }} />
+                <span className="mono" style={{ fontSize: 11, color: 'var(--accent)' }}>
+                  {pct}%
+                </span>
+              </>
+            )}
           </div>
           <div className="progress-bar">
             <div className="progress-bar-fill" style={{ width: `${pct}%` }} />
@@ -71,8 +79,14 @@ export default function WebShell() {
             fontFamily: 'var(--font-mono)', fontSize: 10, color: 'var(--ink-mute)',
             letterSpacing: '0.06em',
           }}>
-            <span>学习中 {learningCount}</span>
-            <span>未学 {unstartedCount}</span>
+            {statsLoading ? (
+              <span>正在同步统计</span>
+            ) : (
+              <>
+                <span>学习中 {learningCount}</span>
+                <span>未学 {unstartedCount}</span>
+              </>
+            )}
           </div>
         </div>
 

@@ -63,7 +63,7 @@ function ToneConstellation({ tones, lit }) {
 
 export default function HomeScreen() {
   const navigate = useNavigate();
-  const { stats } = useStats();
+  const { stats, statsLoading } = useStats();
   const [featured, setFeatured] = useState(null);
   const [allExpressions, setAllExpressions] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -86,7 +86,7 @@ export default function HomeScreen() {
     load();
   }, []);
 
-  const { masteredCount = 0, learningCount = 0, totalExpressions = 50 } = stats;
+  const { masteredCount = 0, learningCount = 0, totalExpressions = 0 } = stats || {};
   const pct = totalExpressions > 0 ? Math.round((masteredCount / totalExpressions) * 100) : 0;
 
   const reviewCandidates = useMemo(() =>
@@ -220,19 +220,27 @@ export default function HomeScreen() {
               </button>
             </div>
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
-              <span className="serif italic" style={{ fontSize: 48, fontWeight: 400, color: 'var(--ink)', lineHeight: 1 }}>
-                {masteredCount}
-              </span>
-              <span className="serif italic" style={{ fontSize: 18, color: 'var(--ink-mute)' }}>
-                / {totalExpressions} 已掌握
-              </span>
+              {statsLoading ? (
+                <span className="mono" style={{ fontSize: 12, color: 'var(--ink-mute)' }}>
+                  loading...
+                </span>
+              ) : (
+                <>
+                  <span className="serif italic" style={{ fontSize: 48, fontWeight: 400, color: 'var(--ink)', lineHeight: 1 }}>
+                    {masteredCount}
+                  </span>
+                  <span className="serif italic" style={{ fontSize: 18, color: 'var(--ink-mute)' }}>
+                    / {totalExpressions} 已掌握
+                  </span>
+                </>
+              )}
             </div>
             <div className="progress-bar" style={{ marginTop: 14 }}>
               <div className="progress-bar-fill" style={{ width: `${pct}%` }} />
             </div>
             <div style={{ marginTop: 16, display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 14 }}>
-              <Stat n={learningCount} label="学习中" />
-              <Stat n={Math.max(0, totalExpressions - masteredCount - learningCount)} label="未开始" />
+              <Stat n={statsLoading ? '...' : learningCount} label="学习中" />
+              <Stat n={statsLoading ? '...' : Math.max(0, totalExpressions - masteredCount - learningCount)} label="未开始" />
             </div>
           </section>
         </div>

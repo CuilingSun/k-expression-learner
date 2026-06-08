@@ -8,26 +8,25 @@ export function useStats() {
 }
 
 export function StatsProvider({ children }) {
-  const [stats, setStats] = useState({
-    totalExpressions: 50,
-    learningCount: 0,
-    masteredCount: 0,
-    notStartedCount: 50,
-  });
+  const [stats, setStats] = useState(null);
+  const [statsLoading, setStatsLoading] = useState(true);
 
   const refreshStats = async () => {
+    setStatsLoading(true);
     try {
       const response = await getExpressions(1, 1);
       if (response.stats) setStats(response.stats);
     } catch {
       // silent fail — sidebar still renders
+    } finally {
+      setStatsLoading(false);
     }
   };
 
   useEffect(() => { refreshStats(); }, []);
 
   return (
-    <StatsContext.Provider value={{ stats, refreshStats }}>
+    <StatsContext.Provider value={{ stats, statsLoading, refreshStats }}>
       {children}
     </StatsContext.Provider>
   );

@@ -17,7 +17,7 @@ function Stat({ n, label, tint }) {
 
 export default function ProfileScreen() {
   const navigate = useNavigate();
-  const { stats } = useStats();
+  const { stats, statsLoading } = useStats();
   const [allExpressions, setAllExpressions] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -35,7 +35,7 @@ export default function ProfileScreen() {
     load();
   }, []);
 
-  const { masteredCount = 0, learningCount = 0, totalExpressions = 50 } = stats;
+  const { masteredCount = 0, learningCount = 0, totalExpressions = 0 } = stats || {};
   const pct = totalExpressions > 0 ? Math.round((masteredCount / totalExpressions) * 100) : 0;
 
   const byTone = useMemo(() => {
@@ -84,22 +84,30 @@ export default function ProfileScreen() {
             掌握进度 · progress
           </div>
           <div style={{ marginTop: 16, display: 'flex', alignItems: 'baseline', gap: 10 }}>
-            <span className="serif italic" style={{ fontSize: 88, fontWeight: 400, color: 'var(--ink)', lineHeight: 0.9 }}>
-              {masteredCount}
-            </span>
-            <span className="serif italic" style={{ fontSize: 28, color: 'var(--ink-mute)' }}>/ {totalExpressions}</span>
-            <span style={{ flex: 1 }} />
-            <span style={{ padding: '6px 14px', background: 'var(--accent-soft)', borderRadius: 999, color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: 12, fontWeight: 600 }}>
-              {pct}%
-            </span>
+            {statsLoading ? (
+              <span className="mono" style={{ fontSize: 12, color: 'var(--ink-mute)' }}>
+                loading...
+              </span>
+            ) : (
+              <>
+                <span className="serif italic" style={{ fontSize: 88, fontWeight: 400, color: 'var(--ink)', lineHeight: 0.9 }}>
+                  {masteredCount}
+                </span>
+                <span className="serif italic" style={{ fontSize: 28, color: 'var(--ink-mute)' }}>/ {totalExpressions}</span>
+                <span style={{ flex: 1 }} />
+                <span style={{ padding: '6px 14px', background: 'var(--accent-soft)', borderRadius: 999, color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: 12, fontWeight: 600 }}>
+                  {pct}%
+                </span>
+              </>
+            )}
           </div>
           <div className="progress-bar" style={{ marginTop: 24 }}>
             <div className="progress-bar-fill" style={{ width: `${pct}%` }} />
           </div>
           <div style={{ marginTop: 24, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 14, paddingTop: 24, borderTop: '1px solid var(--line-soft)' }}>
-            <Stat n={masteredCount} label="已掌握" tint="var(--ink)" />
-            <Stat n={learningCount} label="学习中" tint="var(--accent)" />
-            <Stat n={Math.max(0, totalExpressions - masteredCount - learningCount)} label="未开始" tint="var(--ink-mute)" />
+            <Stat n={statsLoading ? '...' : masteredCount} label="已掌握" tint="var(--ink)" />
+            <Stat n={statsLoading ? '...' : learningCount} label="学习中" tint="var(--accent)" />
+            <Stat n={statsLoading ? '...' : Math.max(0, totalExpressions - masteredCount - learningCount)} label="未开始" tint="var(--ink-mute)" />
           </div>
         </div>
 
