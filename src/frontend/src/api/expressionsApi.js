@@ -1,4 +1,7 @@
 import axios from "axios";
+import * as staticApi from "./staticExpressionsApi";
+
+const isStaticSite = import.meta.env.VITE_STATIC_SITE === "true";
 
 const api = axios.create({
   baseURL: "/api",
@@ -19,6 +22,7 @@ function unwrapError(error) {
 }
 
 export async function getExpressions(page = 1, limit = 50, status = null) {
+  if (isStaticSite) return staticApi.getExpressions(page, limit, status);
   try {
     const params = { page, limit };
     if (status) params.status = status;
@@ -30,6 +34,7 @@ export async function getExpressions(page = 1, limit = 50, status = null) {
 }
 
 export async function getNextExpression() {
+  if (isStaticSite) return staticApi.getNextExpression();
   try {
     const response = await api.get("/expressions/next");
     return response.data;
@@ -39,6 +44,7 @@ export async function getNextExpression() {
 }
 
 export async function getRandomExpression() {
+  if (isStaticSite) return staticApi.getRandomExpression();
   try {
     const response = await api.get("/expressions/random");
     return response.data;
@@ -48,6 +54,7 @@ export async function getRandomExpression() {
 }
 
 export async function getExpressionById(id) {
+  if (isStaticSite) return staticApi.getExpressionById(id);
   try {
     const response = await api.get(`/expressions/${id}`);
     return response.data;
@@ -57,6 +64,7 @@ export async function getExpressionById(id) {
 }
 
 export async function updateExpressionStatus(id, status) {
+  if (isStaticSite) return staticApi.updateExpressionStatus(id, status);
   try {
     const response = await api.put(`/expressions/${id}/status`, { status });
     return response.data;
@@ -66,6 +74,7 @@ export async function updateExpressionStatus(id, status) {
 }
 
 export async function saveExpressionNote(id, note) {
+  if (isStaticSite) return staticApi.saveExpressionNote(id, note);
   try {
     const response = await api.put(`/expressions/${id}/note`, { note });
     return response.data;
@@ -75,6 +84,7 @@ export async function saveExpressionNote(id, note) {
 }
 
 export async function getExpressionByKorean(korean) {
+  if (isStaticSite) return staticApi.getExpressionByKorean(korean);
   try {
     const response = await api.get("/expressions/lookup", { params: { korean } });
     return response.data;
@@ -84,6 +94,7 @@ export async function getExpressionByKorean(korean) {
 }
 
 export async function getRewriteFeedback(id, userSentence) {
+  if (isStaticSite) return staticApi.getRewriteFeedback(id, userSentence);
   try {
     const response = await aiApi.post(`/expressions/${id}/feedback`, { userSentence });
     return response.data;

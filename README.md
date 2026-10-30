@@ -33,6 +33,24 @@ npm start
 
 Open `http://localhost:3300`.
 
+## GitHub Pages
+
+The workflow in `.github/workflows/deploy-pages.yml` builds and publishes the frontend at
+`https://cuilingsun.github.io/k-expression-learner/` when changes are pushed to `main`.
+In the repository's **Settings → Pages → Build and deployment**, choose **GitHub Actions**
+as the source. You can also run the workflow manually from the **Actions** tab.
+
+The Pages version loads the bundled expression dataset without a server. Learning status
+and notes are stored in each visitor's browser and do not sync across devices. AI rewrite
+scoring requires the Node/Ollama backend and is unavailable on Pages; reference answers
+remain visible. For a local preview of the Pages build:
+
+```bash
+cd src/frontend
+VITE_STATIC_SITE=true npm run build
+npx vite preview --outDir build
+```
+
 ## Dataset
 
 The active dataset lives at `korean_expression_dataset_v5_production_clean.json` (360 expressions). It is imported into SQLite on first start and kept in sync via `ON CONFLICT DO UPDATE`.
